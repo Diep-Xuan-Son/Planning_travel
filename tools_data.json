@@ -42,7 +42,7 @@
     },
 
     "Get destination infomation": {
-        "name": "Get destination infomation",
+        "name": "Get infomation",
         "description": "Use this tool to the infomation of somewhere",
         "parameters": null,
         "method": "POST",
