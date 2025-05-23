@@ -1,0 +1,161 @@
+{
+    "search_metadata": {
+        "id": "search_6Lpb2Z8vDqdsAmob0kVgQzRy",
+        "status": "Success",
+        "created_at": "2025-05-21T16:24:41Z",
+        "request_time_taken": 2.81,
+        "parsing_time_taken": 0.0,
+        "total_time_taken": 2.82,
+        "request_url": "https://www.google.com/maps/search/Tourist+Attractions/@21.8528759,106.7597458,3000m?hl=vi",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_6Lpb2Z8vDqdsAmob0kVgQzRy.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_6Lpb2Z8vDqdsAmob0kVgQzRy"
+    },
+    "search_parameters": {
+        "engine": "google_maps",
+        "q": "Tourist Attractions",
+        "ll": "@21.8528759,106.7597458,3000m",
+        "google_domain": "google.com",
+        "hl": "vi"
+    },
+    "search_information": {
+        "query_displayed": "Tourist Attractions",
+        "state": "Showing results for original spelling."
+    },
+    "local_results": [
+        {
+            "position": 1,
+            "place_id": "ChIJcbQx7tJPtTYRfuXeo1g8xXI",
+            "kgmid": "/g/11qnk70761",
+            "data_id": "0x36b54fd2ee31b471:0x72c53c58a3dee57e",
+            "title": "N\u00fai Phai V\u1ec7",
+            "address": "10 Chu V\u0103n An, V\u0129nh Tr\u1ea1i, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0345 291 168",
+            "rating": 4.3,
+            "reviews": 66,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJcbQx7tJPtTYRfuXeo1g8xXI&q=Tourist+Attractions&authuser=0&hl=vi&gl=CA",
+            "review_text": "\"Leo l\u00ean c\u0169ng h\u01a1i nh\u1ecdc nh\u01b0ng b\u1eadc d\u1ec5 \u0111i, ng\u1eafm c\u1ea3nh th\u00e0nh ph\u1ed1 \u0111\u1eb9p.\"",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.8503651,
+                "longitude": 106.7637775
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "extensions": [
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "L\u1ed1i v\u00e0o cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 l\u1ed1i v\u00e0o cho xe l\u0103n"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noP2V7L2UwHMpyRazAgLty_fEvDxCorZ8RkUQlJtIF9zCUsU4IdnRhvVdrrlQBpWRWmkiwtPjjxC4NgG8RWbXSzNJ5U1f-Op-rR5ZvL3HqcdfbpQmjwlZoD2JP4PrV3_9VgJzc=w80-h106-k-no"
+        },
+        {
+            "position": 2,
+            "place_id": "ChIJDzwDlm9OtTYRid0xtG3yaH0",
+            "kgmid": "/g/1215jw9n",
+            "data_id": "0x36b54e6f96033c0f:0x7d68f26db431dd89",
+            "title": "C\u1ea7u K\u1ef3 C\u00f9ng",
+            "address": "VQ25+654, Chi L\u0103ng, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "rating": 4.4,
+            "reviews": 311,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJDzwDlm9OtTYRid0xtG3yaH0&q=Tourist+Attractions&authuser=0&hl=vi&gl=CA",
+            "review_text": "\"C\u1ea7u m\u1edbi x\u00e2y r\u1ea5t \u0111\u1eb9p, nh\u1ea5t l\u00e0 v\u00e0o bu\u1ed5i t\u1ed1i khi \u0111c chi\u1ebfu s\u00e1ng \u0111\u00e8n\"",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.8505048,
+                "longitude": 106.7579658
+            },
+            "type": "C\u1ea7u",
+            "types": [
+                "C\u1ea7u",
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_t\u01b0": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_n\u0103m": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_s\u00e1u": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_ba": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y"
+            },
+            "extensions": [
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq1xsjnxu5xESs9EETSbpmc1cG3RemdqPx-yZBi1j35RRR3_OKMpKIdGexb05dDQUr9rnxKnaHhOl0FX9ABSyztb9BtbYhkofI0-yT-eHO3UbNbsd1O4jOJYyRfcR8kvSyz4-VYVA=w153-h92-k-no"
+        },
+        {
+            "position": 3,
+            "ludocid": "109829718385923208739",
+            "place_id": "ChIJYfznFUNPtTYRxruGIjv8GAI",
+            "kgmid": "/g/11t32ypnwh",
+            "data_id": "0x36b54f4315e7fc61:0x218fc3b2286bbc6",
+            "title": "V\u01b0\u1eddn hoa T\u00f4 Th\u1ecb",
+            "address": "VP6W+9G, Trong ng\u00f5 126, T\u00f4 Th\u1ecb, Tam Thanh, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0975 726 996",
+            "rating": 4.0,
+            "reviews": 5,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJYfznFUNPtTYRxruGIjv8GAI&q=Tourist+Attractions&authuser=0&hl=vi&gl=CA",
+            "review_text": "\"Ch\u1ee7 V\u01b0\u1eddn hoa r\u1ea5t nhi\u1ec7t t\u00ecnh, vui t\u00ednh nh\u00e9\"",
+            "gps_coordinates": {
+                "latitude": 21.8596319,
+                "longitude": 106.7474645
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "extensions": [
+                {
+                    "title": "Kh\u00e1ch h\u00e0ng",
+                    "items": [
+                        {
+                            "title": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+",
+                            "value": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+"
+                        },
+                        {
+                            "title": "N\u01a1i an to\u00e0n cho ng\u01b0\u1eddi chuy\u1ec3n gi\u1edbi",
+                            "value": "N\u01a1i an to\u00e0n cho ng\u01b0\u1eddi chuy\u1ec3n gi\u1edbi"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no2G6AC9nY28u-phQjiDRzKxKPS3nqyyjP50t5OcuZGNcDZLYcDk52YoSlzXEuUBtu5Q4cBG2Xb2RoDbvvHDegxEPUC9aBTXVWHMtpnhKZoYkdOejkIZc_dXpkhl840yuk7hKjC=w92-h92-k-no"
+        }
+    ]
+}

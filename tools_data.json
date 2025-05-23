@@ -3,12 +3,10 @@
         "name": "Search hotel",
         "description": "Use this tool to search hotel",
         "parameters": null,
-        "method": "POST",
-        "url": "https://places.googleapis.com/v1/places:searchText",
+        "method": "GET",
+        "url": "https://www.searchapi.io/api/v1/search",
         "parametersHeaders": {
-            "content_type": "application/json",
-            "X-Goog-Api-Key": "api_key",
-            "X-Goog-FieldMask": "places.displayName,places.formattedAddress,places.priceLevel,places.userRatingCount,places.rating,places.websiteUri,places.location,places.googleMapsUri",
+            "content_type": "application/json"
         },
         "next_action": ""
     },
@@ -17,12 +15,10 @@
         "name": "Search restaurant",
         "description": "Use this tool to search restaurant",
         "parameters": null,
-        "method": "POST",
-        "url": "https://places.googleapis.com/v1/places:searchText",
+        "method": "GET",
+        "url": "https://www.searchapi.io/api/v1/search",
         "parametersHeaders": {
-            "content_type": "application/json",
-            "X-Goog-Api-Key": "api_key",
-            "X-Goog-FieldMask": "places.displayName,places.formattedAddress,places.priceLevel,places.userRatingCount,places.rating,places.websiteUri,places.location,places.googleMapsUri",
+            "content_type": "application/json"
         },
         "next_action": ""
     },
@@ -31,12 +27,10 @@
         "name": "Search tourist",
         "description": "Use this tool to search tourist",
         "parameters": null,
-        "method": "POST",
-        "url": "https://places.googleapis.com/v1/places:searchText",
+        "method": "GET",
+        "url": "https://www.searchapi.io/api/v1/search",
         "parametersHeaders": {
-            "content_type": "application/json",
-            "X-Goog-Api-Key": "api_key",
-            "X-Goog-FieldMask": "places.displayName,places.formattedAddress,places.priceLevel,places.userRatingCount,places.rating,places.websiteUri,places.location,places.googleMapsUri",
+            "content_type": "application/json"
         },
         "next_action": ""
     },
@@ -45,13 +39,11 @@
         "name": "Get infomation",
         "description": "Use this tool to the infomation of somewhere",
         "parameters": null,
-        "method": "POST",
-        "url": "https://places.googleapis.com/v1/places:searchText",
+        "method": "GET",
+        "url": "https://api.geoapify.com/v1/geocode/search",
         "parametersHeaders": {
-            "content_type": "application/json",
-            "X-Goog-Api-Key": "api_key",
-            "X-Goog-FieldMask": "places.location",
+            "content_type": "application/json"
         },
         "next_action": ""
-    },
+    }
 }

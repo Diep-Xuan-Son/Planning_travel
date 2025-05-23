@@ -10,4 +10,12 @@ openai==1.6.1
 faiss-cpu==1.7.4
 transformers==4.36.2
 sentence_transformers==2.2.2
+
 langchain_community
+langchain_openai
+#huggingface_hub
+#tokenizers
+#mmh3
+#snowballstemmer
+sentence_transformers 
+pyjwt

@@ -2,8 +2,11 @@ import requests
 from requests.structures import CaseInsensitiveDict
 import pandas as pd
 import json
-from langchain.document_loaders import DataFrameLoader
+from langchain_community.document_loaders import DataFrameLoader
 from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.vectorstores import FAISS
+# from fastembed import SparseTextEmbedding, TextEmbedding
+from sentence_transformers import SentenceTransformer
 
 api_key_geoapify = "ec8294c519294767ba0c6861434c3d88"
 url_place = "https://api.geoapify.com/v1/geocode/search"
@@ -111,8 +114,34 @@ df_place_rename = df_place.rename(columns={
     'thumbnail': 'Thumbnail'
 })
 df_place_brief = df_place_rename[['Type', 'Name', 'Address', 'Phone', 'Rating', 'User Rating Count','Google Maps URL', 'Website URL', 'Latitude', 'Longitude', 'Thumbnail']]
+print(df_place_brief)
+print(df_place_brief[df_place_brief["Rating"] > 4])
 
 # Load Processed Dataset
 loader = DataFrameLoader(df_place_rename, page_content_column="combined_info")
 docs  = loader.load()
-print(docs[0])
+
+# Document splitting
+text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+texts = text_splitter.split_documents(docs)
+
+
+class MyEmbeddings:
+    def __init__(self, model):
+        # self.model = TextEmbedding(model_name=model, providers=["CUDAExecutionProvider", "CPUExecutionProvider"])
+       self.model = SentenceTransformer("./weights/nomic-embed-text-v1.5", trust_remote_code=True)
+    
+    def embed_documents(self, texts: list[str]) -> list[list[float]]:
+        # return list(self.model.query_embed(texts))
+        return list(self.model.encode(texts))
+            
+    def embed_query(self, query: str) -> list[float]:
+        # return list(self.model.query_embed([query]))
+        return list(self.model.encode([query]))
+
+
+embeddings = MyEmbeddings(model="./weights/nomic-embed-text-v1.5")
+# Vector DB
+vectorstore  = FAISS.from_documents(texts, embeddings)
+
+print(vectorstore.as_retriever())

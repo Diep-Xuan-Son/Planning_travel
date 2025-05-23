@@ -1,0 +1,633 @@
+{
+    "search_metadata": {
+        "id": "search_GgM5dQzeGq7syDO7rvOlAjp3",
+        "status": "Success",
+        "created_at": "2025-05-21T16:32:44Z",
+        "request_time_taken": 3.05,
+        "parsing_time_taken": 0.01,
+        "total_time_taken": 3.06,
+        "request_url": "https://www.google.com/maps/search/Hotels/@21.8528759,106.7597458,3000m?hl=vi",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_GgM5dQzeGq7syDO7rvOlAjp3.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_GgM5dQzeGq7syDO7rvOlAjp3"
+    },
+    "search_parameters": {
+        "engine": "google_maps",
+        "q": "Hotels",
+        "ll": "@21.8528759,106.7597458,3000m",
+        "google_domain": "google.com",
+        "hl": "vi"
+    },
+    "search_information": {
+        "query_displayed": "Hotels",
+        "state": "Showing results for original spelling."
+    },
+    "local_results": [
+        {
+            "position": 1,
+            "ludocid": "115829924514860730296",
+            "place_id": "ChIJzSFbeRFPtTYRlp6c4Y8Oz3A",
+            "kgmid": "/g/11f7q_mr1r",
+            "data_id": "0x36b54f11795b21cd:0x70cf0e8fe19c9e96",
+            "title": "Four Points by Sheraton",
+            "description": "Kh\u00e1ch s\u1ea1n cao c\u1ea5p c\u00f3 nh\u00e0 h\u00e0ng v\u00e0 spa. Kh\u00e1ch s\u1ea1n cao c\u1ea5p, ph\u00f2ng \u1ed1c trang nh\u00e3, c\u00f3 nh\u00e0 h\u00e0ng, qu\u00e1n bar, spa v\u00e0 b\u1ec3 b\u01a1i trong nh\u00e0.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n cao c\u1ea5p v\u00e0 trang nh\u00e3 n\u00e0y c\u00f3 thi\u1ebft k\u1ebf t\u00e2n c\u1ed5 \u0111i\u1ec3n, nh\u00ecn ra ng\u1ecdn n\u00fai ph\u00eda xa v\u00e0 s\u00f4ng K\u1ef3 C\u00f9ng, c\u00e1ch Ch\u1ee3 \u0110\u00f4ng Kinh nh\u1ed9n nh\u1ecbp 12\u00a0ph\u00fat \u0111i b\u1ed9 v\u00e0 c\u00e1ch Ga L\u1ea1ng S\u01a1n 2\u00a0km.",
+                "Ph\u00f2ng \u1edf sang tr\u1ecdng, c\u00f3 TV m\u00e0n h\u00ecnh ph\u1eb3ng, t\u1ee7 l\u1ea1nh nh\u1ecf v\u00e0 nh\u00ecn ra th\u00e0nh ph\u1ed1 ho\u1eb7c n\u00fai. Ph\u00f2ng suite c\u00f3 ph\u00f2ng kh\u00e1ch ri\u00eang. C\u00f3 Wi-Fi.",
+                "Ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed. C\u00f3 nh\u00e0 h\u00e0ng sang tr\u1ecdng, qu\u00e1n bar \u1ea5m c\u00fang, b\u1ec3 b\u01a1i trong nh\u00e0, ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c v\u00e0 spa y\u00ean t\u0129nh."
+            ],
+            "address": "Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Chi L\u0103ng, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n 240000, Vi\u1ec7t Nam",
+            "phone": "0205 3782 999",
+            "price": "50\u00a0CA$",
+            "hotel_stars": "5 sao",
+            "rating": 4.9,
+            "reviews": 1588,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJzSFbeRFPtTYRlp6c4Y8Oz3A&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "https://www.marriott.com/en-us/hotels/hanlp-four-points-lang-son/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0",
+            "domain": "marriott.com",
+            "gps_coordinates": {
+                "latitude": 21.8476213,
+                "longitude": 106.7581298
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n",
+                "D\u1ecbch v\u1ee5 l\u00ean k\u1ebf ho\u1ea1ch cu\u1ed9c h\u1ecdp"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPlVZsZuGuCs8dzIH_7hzhxfw_YrNh16kb7K-Q3=w163-h92-k-no"
+        },
+        {
+            "position": 2,
+            "ludocid": "100494883199307235562",
+            "place_id": "ChIJO2uQSqtPtTYRmTN_LY7j7uM",
+            "kgmid": "/g/11pkvlx3x_",
+            "data_id": "0x36b54fab4a906b3b:0xe3eee38e2d7f3399",
+            "title": "Tru by Hilton Trung T\u00e2m Th\u00e0nh Ph\u1ed1 L\u1ea1ng S\u01a1n",
+            "address": "297 Phai V\u1ec7, Mai Pha, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3909 555",
+            "price": "54\u00a0CA$",
+            "hotel_stars": "4 sao",
+            "rating": 4.8,
+            "reviews": 486,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJO2uQSqtPtTYRmTN_LY7j7uM&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "https://sojohotels.com/en",
+            "domain": "sojohotels.com",
+            "gps_coordinates": {
+                "latitude": 21.8465005,
+                "longitude": 106.773652
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "Wi-Fi"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMoN27TZC4Bg8gyz8-iNpqH3zSJd4i-jgINxAFu=w80-h120-k-no"
+        },
+        {
+            "position": 3,
+            "ludocid": "115669144302933767963",
+            "place_id": "ChIJIzvDLH1OtTYRsv8jxvQ3fj0",
+            "kgmid": "/g/1tg66cv5",
+            "data_id": "0x36b54e7d2cc33b23:0x3d7e37f4c623ffb2",
+            "title": "M\u01b0\u1eddng Thanh Luxury L\u1ea1ng S\u01a1n",
+            "description": "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 nh\u00e0 h\u00e0ng v\u00e0 spa. Kh\u00e1ch s\u1ea1n \u1ea5m c\u00fang c\u00f3 khu spa, ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c, b\u1ec3 b\u01a1i ngo\u00e0i tr\u1eddi, nh\u00e0 h\u00e0ng t\u1ef1 ch\u1ecdn v\u00e0 ph\u00f2ng karaoke.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng n\u00e0y n\u1eb1m tr\u00ean con ph\u1ed1 c\u00f3 nhi\u1ec1u c\u1eeda hi\u1ec7u v\u00e0 nh\u00e0 h\u00e0ng, c\u00e1ch Ch\u1ee3 \u0110\u00f4ng Kinh 1 km v\u00e0 c\u00e1ch Ch\u00f9a Tam Thanh 2 km. C\u00e1ch Ga L\u1ea1ng S\u01a1n 4 ph\u00fat \u0111i b\u1ed9.",
+                "Ph\u00f2ng \u1edf \u1ea5m c\u00fang, tho\u1ea3i m\u00e1i c\u00f3 Wi-Fi, TV m\u00e0n h\u00ecnh ph\u1eb3ng, khu v\u1ef1c gh\u1ebf ng\u1ed3i, t\u1ee7 l\u1ea1nh nh\u1ecf c\u00f9ng d\u1ee5ng c\u1ee5 pha tr\u00e0 v\u00e0 c\u00e0 ph\u00ea. Ph\u00f2ng suite c\u00f3 th\u00eam ph\u00f2ng kh\u00e1ch ri\u00eang.",
+                "C\u00f3 2 nh\u00e0 h\u00e0ng, qu\u1ea7y bar t\u1ea1i s\u1ea3nh, qu\u00e1n c\u00e0 ph\u00ea nh\u00ecn ra th\u00e0nh ph\u1ed1 v\u00e0 kh\u00f4ng gian t\u1ed5 ch\u1ee9c s\u1ef1 ki\u1ec7n. C\u00e1c ti\u1ec7n nghi kh\u00e1c bao g\u1ed3m ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c, khu spa, b\u1ec3 b\u01a1i ngo\u00e0i tr\u1eddi v\u00e0 ph\u00f2ng karaoke. Ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng."
+            ],
+            "address": "68 Ng\u00f4 Quy\u1ec1n, V\u0129nh Tr\u1ea1i, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3866 668",
+            "price": "32\u00a0CA$",
+            "hotel_stars": "4 sao",
+            "rating": 4.2,
+            "reviews": 1439,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJIzvDLH1OtTYRsv8jxvQ3fj0&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "http://luxurylangson.muongthanh.com/",
+            "domain": "luxurylangson.muongthanh.com",
+            "gps_coordinates": {
+                "latitude": 21.8531274,
+                "longitude": 106.7685703
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOppUcP0MsQ9zgXhg0TJrRIF_cjlEEXFaKADEIf=w137-h92-k-no"
+        },
+        {
+            "position": 4,
+            "ludocid": "104827033918262531139",
+            "place_id": "ChIJwQUDKIFOtTYRkcwRPYhYGF8",
+            "kgmid": "/g/11x6mh3sdl",
+            "data_id": "0x36b54e81280305c1:0x5f1858883d11cc91",
+            "title": "Tru by Hilton Lang Son City Centre",
+            "address": "297 Phai V\u1ec7, Mai Pha, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n Province, Vi\u1ec7t Nam",
+            "phone": "0205 3909 555",
+            "price": "53\u00a0CA$",
+            "rating": 5.0,
+            "reviews": 2,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJwQUDKIFOtTYRkcwRPYhYGF8&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "https://www.hilton.com/en/hotels/hanvpru-tru-lang-son-city-centre/?SEO_id=GMB-APAC-RU-HANVPRU",
+            "domain": "hilton.com",
+            "gps_coordinates": {
+                "latitude": 21.8465456,
+                "longitude": 106.7736056
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGjNm0ZnmJv3TLHPQqVnqcxCwtCfZRPw9eB7Rr2MUSagTrEdwsNC-RzJ2LijUaHxNLrynV07CZMj3AuSUIybHzJHyBhT3MK30E6ht4oo9gZhWWR1LWniywuMFkFvtn1rEnkYNiJVxXv5wT0Y9pfQdN-Jq1q_AiN1wpPy2e6Izm9nz_XA2xaF7_S=w138-h92-k-no"
+        },
+        {
+            "position": 5,
+            "ludocid": "109675231840243254564",
+            "place_id": "ChIJf31_lXZPtTYRfNDFsNK5jaU",
+            "kgmid": "/g/11wj94j0ld",
+            "data_id": "0x36b54f76957f7d7f:0xa58db9d2b0c5d07c",
+            "title": "Kh\u00e1ch S\u1ea1n Imperial L\u1ea1ng S\u01a1n",
+            "address": "69 L\u00fd Th\u01b0\u1eddng Ki\u1ec7t, V\u0129nh Tr\u1ea1i, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "price": "36\u00a0CA$",
+            "rating": 4.7,
+            "reviews": 29,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJf31_lXZPtTYRfNDFsNK5jaU&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "http://www.imperialhotellangson.com.vn/",
+            "domain": "imperialhotellangson.com.vn",
+            "gps_coordinates": {
+                "latitude": 21.8592845,
+                "longitude": 106.7641192
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEgxyu4knut9fVmqjW0drHaRE7qYp0xhywjonTJD-9T9cNuwrdayBjSwwmLAQKYyMmhOqy1gQ_EHSyt542I78CfPKBDTmvQYEBnuZF1ue2DyjAppfiYeQ5wdFQybUzm2HfZIhACAHwrVxR0MMJsvO1GMiUmAMZdeWYV-S5sLXtTbENMMdrUE4c=w80-h120-k-no"
+        },
+        {
+            "position": 6,
+            "ludocid": "116720981123861853124",
+            "place_id": "ChIJGQgTr91PtTYR8vzM6Ffld4U",
+            "kgmid": "/g/11jyyw4nkq",
+            "data_id": "0x36b54fddaf130819:0x8577e557e8ccfcf2",
+            "title": "Kh\u00e1ch S\u1ea1n \u0110\u00d4NG Ph\u01b0\u01a1ng",
+            "address": "46 Ng\u00f4 Gia T\u1ef1, \u0110\u00f4ng Kinh, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3868 168",
+            "price": "17\u00a0CA$",
+            "rating": 3.6,
+            "reviews": 42,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJGQgTr91PtTYR8vzM6Ffld4U&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "https://www.facebook.com/profile.php?id=100009315314261",
+            "domain": "facebook.com",
+            "gps_coordinates": {
+                "latitude": 21.8494061,
+                "longitude": 106.7618449
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqxWyZvWpynDpEZieBJcUNztM6sR0GjWVqiVI3DDscLxAVdVt9Ka80eOI0LbEbDj8TLopl9G-elxRZQFZ5ZET9sCMyHNAooKAV7K8OKbZm-d-yu32xBrnbSgOblm1-qU1LOTDg=w200-h92-k-no"
+        },
+        {
+            "position": 7,
+            "ludocid": "109591652460364489877",
+            "place_id": "ChIJZ3HC3f1PtTYRUPoIYU_3NMc",
+            "kgmid": "/g/11vc6pwbhx",
+            "data_id": "0x36b54ffdddc27167:0xc734f74f6108fa50",
+            "title": "Happy Home",
+            "address": "\u0110. V\u00f5 Th\u1ecb S\u00e1u, Khu \u0111\u00f4 th\u1ecb Green Park, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n 25000, Vi\u1ec7t Nam",
+            "phone": "0988 716 888",
+            "price": "46\u00a0CA$",
+            "rating": 5.0,
+            "reviews": 13,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJZ3HC3f1PtTYRUPoIYU_3NMc&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "https://www.facebook.com/profile.php?id=61561108423740&locale=vi_VN",
+            "domain": "facebook.com",
+            "gps_coordinates": {
+                "latitude": 21.8476663,
+                "longitude": 106.7756169
+            },
+            "type": "Kh\u00e1ch s\u1ea1n ngh\u1ec9 d\u01b0\u1ee1ng",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n ngh\u1ec9 d\u01b0\u1ee1ng",
+                "C\u0103n h\u1ed9 ngh\u1ec9 d\u01b0\u1ee1ng cho thu\u00ea"
+            ],
+            "amenities": [
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "Wi-Fi"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPMOMTLQi_Xc5uSxlBMBa8a3Lk2kLCjuB56OiVs=w122-h92-k-no"
+        },
+        {
+            "position": 8,
+            "ludocid": "111503839143103014616",
+            "place_id": "ChIJ4UxY-l9PtTYRvR4GwDWsZNk",
+            "kgmid": "/g/11wj3g001r",
+            "data_id": "0x36b54f5ffa584ce1:0xd964ac35c0061ebd",
+            "title": "BBQ HOTEL & HOSTEL L\u1ea0NG S\u01a0N (with Swimming Pool)",
+            "address": "K\u0110T APec Diamond Park, 48, Mai Pha, L\u1ea1ng S\u01a1n 25000, Vi\u1ec7t Nam",
+            "phone": "0915 248 158",
+            "price": "25\u00a0CA$",
+            "rating": 4.8,
+            "reviews": 87,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ4UxY-l9PtTYRvR4GwDWsZNk&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "https://www.facebook.com/profile.php?id=61566921651024",
+            "domain": "facebook.com",
+            "gps_coordinates": {
+                "latitude": 21.8442678,
+                "longitude": 106.7757818
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "extensions": [
+                {
+                    "title": "Kh\u00e1ch h\u00e0ng",
+                    "items": [
+                        {
+                            "title": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+",
+                            "value": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrUbn6_fwz08jr_71exwezeENCw_lqAwYhffePYSj6LSlWAQc2D_eVw767xLs-NoL7Kt2MXcpVzW8oMh2GjfAZ9l1oOtc3E2dHD2ayfwRLfUSwHYT1yLs1vbFWomPewq826f1y7hw=w122-h92-k-no"
+        },
+        {
+            "position": 9,
+            "ludocid": "108674324345012737300",
+            "place_id": "ChIJIyX4w6tPtTYRGHJ1J03XaBo",
+            "kgmid": "/g/11vxy2zmll",
+            "data_id": "0x36b54fabc3f82523:0x1a68d74d27757218",
+            "title": "HOTEL MIAMOR",
+            "address": "113 Nguy\u1ec5n Du, \u0110\u00f4ng Kinh, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0568 953 333",
+            "price": "26\u00a0CA$",
+            "rating": 4.3,
+            "reviews": 40,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJIyX4w6tPtTYRGHJ1J03XaBo&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "gps_coordinates": {
+                "latitude": 21.8471455,
+                "longitude": 106.7604718
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPpEV8v2kRJSPF6R00AS6KXYhuayGRCXJi5GeJJ=w137-h92-k-no"
+        },
+        {
+            "position": 10,
+            "place_id": "ChIJg5F23bhPtTYRQymYiRM-k2Q",
+            "kgmid": "/g/11s0jk4ppl",
+            "data_id": "0x36b54fb8dd769183:0x64933e1389982943",
+            "title": "LONG V\u0168 HOTEL",
+            "address": "136 L\u00fd Th\u01b0\u1eddng Ki\u1ec7t, V\u0129nh Tr\u1ea1i, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3898 999",
+            "price": "32\u00a0CA$",
+            "hotel_stars": "3 sao",
+            "rating": 4.0,
+            "reviews": 104,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJg5F23bhPtTYRQymYiRM-k2Q&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "is_unclaimed_listing": true,
+            "website": "https://m.facebook.com/LONG-V%C5%A8-HOTEL-102928158883328/",
+            "domain": "m.facebook.com",
+            "gps_coordinates": {
+                "latitude": 21.8615794,
+                "longitude": 106.7634189
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "Wi-Fi"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqDDZnSA0Wlm1fe5h1fqbKQ9TBugVubjncEnsLx6XLHcRQgtCrGZkHMjtLFhEJYqXCuvPuZLaq5JMFQtVfi7r56nFRez8ErHo_lhH4yeDqE4amo8s-xMJLaxP86L2PIrr7jV1Yd=w80-h106-k-no"
+        },
+        {
+            "position": 11,
+            "ludocid": "117291247673343070612",
+            "place_id": "ChIJzdpurbhPtTYRj1lgP87L5X8",
+            "kgmid": "/g/11ln19pk6x",
+            "data_id": "0x36b54fb8ad6edacd:0x7fe5cbce3f60598f",
+            "title": "Nh\u1eadt Minh Hotel",
+            "address": "50 L\u00fd Th\u01b0\u1eddng Ki\u1ec7t, V\u0129nh Tr\u1ea1i, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n 25000, Vi\u1ec7t Nam",
+            "phone": "0855 126 128",
+            "price": "29\u00a0CA$",
+            "rating": 5.0,
+            "reviews": 15,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJzdpurbhPtTYRj1lgP87L5X8&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "gps_coordinates": {
+                "latitude": 21.8569849,
+                "longitude": 106.7659184
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "extensions": [
+                {
+                    "title": "Kh\u00e1ch h\u00e0ng",
+                    "items": [
+                        {
+                            "title": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+",
+                            "value": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nobbY9EG02_JWJeoiL1WQtlSjsVuMR7euErnqSP17l--rdw0pFeDJtfufEyr8TyGno2zPIFWPPvRWv58r8dCKNDBD_JKnomXqWR1IUIMnExYiyyWEI0O-q2o1Z0Qs-LVsWAR6UQ=w138-h92-k-no"
+        },
+        {
+            "position": 12,
+            "ludocid": "106568498941403978625",
+            "place_id": "ChIJlf6rw9lPtTYRLDfAjRuacbI",
+            "kgmid": "/g/11rnbz1p22",
+            "data_id": "0x36b54fd9c3abfe95:0xb2719a1b8dc0372c",
+            "title": "Kh\u00e1ch s\u1ea1n New Century Hotel",
+            "address": "185 \u0110\u01b0\u1eddng \u0110. Tr\u1ea7n \u0110\u0103ng Ninh, Ho\u00e0ng V\u0103n Th\u1ee5, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0915 019 888",
+            "price": "12\u00a0CA$",
+            "rating": 4.2,
+            "reviews": 52,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJlf6rw9lPtTYRLDfAjRuacbI&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "gps_coordinates": {
+                "latitude": 21.8608679,
+                "longitude": 106.7557014
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "Wi-Fi"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOTyYgg2H9FXU6gp4di9PnaXBKF9RIx4hTZTTNJ=w80-h119-k-no"
+        },
+        {
+            "position": 13,
+            "ludocid": "102295030328099208169",
+            "place_id": "ChIJtddTSGNOtTYRhF8AB0f4bkw",
+            "kgmid": "/g/1hc48ymfc",
+            "data_id": "0x36b54e634853d7b5:0x4c6ef84707005f84",
+            "title": "Kh\u00e1ch S\u1ea1n Ho\u00e0ng V\u0169",
+            "address": "191 L\u00ea L\u1ee3i, V\u0129nh Tr\u1ea1i, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3870 004",
+            "price": "18\u00a0CA$",
+            "hotel_stars": "3 sao",
+            "rating": 3.9,
+            "reviews": 107,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJtddTSGNOtTYRhF8AB0f4bkw&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "gps_coordinates": {
+                "latitude": 21.8544717,
+                "longitude": 106.7660724
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "Wi-Fi",
+                "Nh\u00e0 h\u00e0ng"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHPUC2yKarbs4aTXetLxdC5dKe-tDZS4vxZ5rMyHqI2mFmJJ8T4AGIOcl6eJB08rou-3Hb_9455oX6-JmsX6CRrsfqp2A2mr37CJckEh4quUsHWJEcqJtMtn5HRNTmiVy7tJdYYRp7tMCdlI3KU_XVlq60tas3_XxTO46KD0eZNk8V-uSmhG-Cm=w122-h92-k-no"
+        },
+        {
+            "position": 14,
+            "ludocid": "107742499869781346367",
+            "place_id": "ChIJ50HY6HhNtTYRuy1knQUE0_A",
+            "kgmid": "/g/11t6y86mgl",
+            "data_id": "0x36b54d78e8d841e7:0xf0d304059d642dbb",
+            "title": "Kh\u00e1ch s\u1ea1n H\u1ed3ng Ng\u1ecdc",
+            "address": "503 \u0110. B\u00e0 Tri\u1ec7u, \u0110\u00f4ng Kinh, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3734 999",
+            "price": "33\u00a0CA$",
+            "rating": 3.3,
+            "reviews": 11,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ50HY6HhNtTYRuy1knQUE0_A&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "https://www.facebook.com/profile.php?id=100084228925325&mibextid=ZbWKwL",
+            "domain": "facebook.com",
+            "gps_coordinates": {
+                "latitude": 21.8504408,
+                "longitude": 106.7627085
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noZkMaSZ6oz1-qK04LAN8dGuAN0000PYldU-G1xywPPnVK4a_aB8Mn25GMdze5uk-3zO6mtPve_blQ2XkTz8Hcx7tPk-hEdo-3_fW_-gGpM7RgYHdcr3kDtxLMbP56xMSqSn0Av=w80-h106-k-no"
+        },
+        {
+            "position": 15,
+            "ludocid": "111804863493067669657",
+            "place_id": "ChIJ-zrg9wVPtTYR2z_1vDUSpIA",
+            "kgmid": "/g/11k4qhyz7_",
+            "data_id": "0x36b54f05f7e03afb:0x80a41235bcf53fdb",
+            "title": "ANH T\u00da HOTEL",
+            "address": "95 L\u00fd Th\u01b0\u1eddng Ki\u1ec7t, V\u0129nh Tr\u1ea1i, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3800 999",
+            "price": "27\u00a0CA$",
+            "rating": 4.5,
+            "reviews": 36,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ-zrg9wVPtTYR2z_1vDUSpIA&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "website": "https://www.facebook.com/anhtuhotells?mibextid=LQQJ4d",
+            "domain": "facebook.com",
+            "gps_coordinates": {
+                "latitude": 21.8613363,
+                "longitude": 106.7630196
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nogBa0_v9ydJ6tUPNXf_ajgfzIRoa7UAYtTqgLcTnfbsRLrnjfzZoNFIBQt1o4sT6CPhGe6LDocM9GBn7HYEFzqhVcXlqEUy7NHjixQXSv3riB44EJTfZE2oKVfHqXolnQFOBxw_g=w137-h92-k-no"
+        },
+        {
+            "position": 16,
+            "ludocid": "112233300746439677930",
+            "place_id": "ChIJx6DcsctNtTYRcIy2A5JtSkA",
+            "kgmid": "/g/11r4c6x46t",
+            "data_id": "0x36b54dcbb1dca0c7:0x404a6d9203b68c70",
+            "title": "Kh\u00e1ch s\u1ea1n An Khang",
+            "address": "734 \u0110. B\u00e0 Tri\u1ec7u, \u0110\u00f4ng Kinh, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0868 982 888",
+            "price": "30\u00a0CA$",
+            "rating": 4.2,
+            "reviews": 27,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJx6DcsctNtTYRcIy2A5JtSkA&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "gps_coordinates": {
+                "latitude": 21.8429555,
+                "longitude": 106.7631019
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP31EVPfIJyYIP9-YUyBt2Fg_S_x70IQogGZJjE=w163-h92-k-no"
+        },
+        {
+            "position": 17,
+            "place_id": "ChIJ4bSCv2ZOtTYRPrBJqRX-jUU",
+            "kgmid": "/g/11btrrj49n",
+            "data_id": "0x36b54e66bf82b4e1:0x458dfe15a949b03e",
+            "title": "Kh\u00e1ch S\u1ea1n Tri\u1ec7u K\u00fd V\u00f2ong",
+            "address": "VQ67+GC8, \u0110\u01b0\u1eddng 37M, V\u0129nh Tr\u1ea1i, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3799 999",
+            "price": "15\u00a0CA$",
+            "hotel_stars": "2 sao",
+            "rating": 3.8,
+            "reviews": 275,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ4bSCv2ZOtTYRPrBJqRX-jUU&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.8612784,
+                "longitude": 106.7635887
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "Wi-Fi",
+                "B\u1ed3n t\u1eafm n\u01b0\u1edbc n\u00f3ng"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhH4OzPjUHyOfPMNBOkuydDCepKUhnmtPeZoq4XbuUWt0PTbCvhT30HX8dM7bVUySwNc-RpcQ_X75nCvid5nIGAr77F43PcDIiweWuwmzUsu3TuRX5jGhzD0TIbpH9pVtH0Pd58xZIisxMkeTIc6SQFE47SBQ56JxmTCKhhCveYgLRY_UPA7HiiZ=w138-h92-k-no"
+        },
+        {
+            "position": 18,
+            "place_id": "ChIJRarnt3FOtTYRhN92wnSAYiY",
+            "kgmid": "/g/1hc84j2c6",
+            "data_id": "0x36b54e71b7e7aa45:0x26628074c276df84",
+            "title": "Kh\u00e1ch S\u1ea1n Ho\u00e0ng S\u01a1n H\u1ea3i",
+            "address": "57 Tam Thanh, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3710 479",
+            "price": "15\u00a0CA$",
+            "hotel_stars": "3 sao",
+            "rating": 3.2,
+            "reviews": 95,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJRarnt3FOtTYRhN92wnSAYiY&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.8531986,
+                "longitude": 106.7553803
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npkNFZoYkgm9bIA0qyJidOXYTkUvvOyp9o_x8nRvnwQ5uGz1exGT7CI3I5B-TIURbLo2i4YlkwJZCCF-ofbcPgyFWqNh-qQmRI8zKi8I3DoAUmOXHzJeD1JVFj-k52YpmrfK2w=w122-h92-k-no"
+        },
+        {
+            "position": 19,
+            "place_id": "ChIJvURUn3dOtTYRpcmaGXCCsy8",
+            "kgmid": "/g/1tnpcqll",
+            "data_id": "0x36b54e779f5444bd:0x2fb38270199ac9a5",
+            "title": "Kh\u00e1ch S\u1ea1n Hoa Sim",
+            "address": "1 Nguy\u1ec5n Th\u00e1i H\u1ecdc, Chi L\u0103ng, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3812 008",
+            "price": "33\u00a0CA$",
+            "rating": 3.7,
+            "reviews": 126,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJvURUn3dOtTYRpcmaGXCCsy8&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "is_unclaimed_listing": true,
+            "website": "http://www.hotel84.com/lang-son/khach-san-hoa-sim-lang-son.html",
+            "domain": "hotel84.com",
+            "gps_coordinates": {
+                "latitude": 21.8470301,
+                "longitude": 106.7552715
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "Wi-Fi"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEH2FpGDrVGypOOKryKwZy3-GIsW0khXgUIXJt-y452IaFdNg6u86CHjyOft58eOlUU4miIjfWdZXl30_dIMe-3fWNekB6u81beIXKv9IRG48n7LPUToYpH_-Pa2vyuVLICGxELjhhrjcSOpqsRsXxcToEU2e-Jo1k159wbh1NpazubJkBtjFtJUw=w122-h92-k-no"
+        },
+        {
+            "position": 20,
+            "place_id": "ChIJeQGhzH1OtTYRww2PMz2cMto",
+            "kgmid": "/g/1tdd83sk",
+            "data_id": "0x36b54e7dcca10179:0xda329c3d338f0dc3",
+            "title": "Kh\u00e1ch s\u1ea1n Ph\u00fa Qu\u00fd - \u0111\u1ecba ch\u1ec9 l\u01b0u tr\u00fa uy t\u00edn t\u1ea1i L\u1ea1ng S\u01a1n",
+            "address": "200 Phai V\u1ec7, \u0110\u00f4ng Kinh, Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+            "phone": "0205 3717 888",
+            "price": "25\u00a0CA$",
+            "rating": 3.6,
+            "reviews": 174,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJeQGhzH1OtTYRww2PMz2cMto&q=Hotels&authuser=0&hl=vi&gl=CA",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.8487127,
+                "longitude": 106.7677991
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n",
+                "Nh\u00e0 t\u1ed5 ch\u1ee9c s\u1ef1 ki\u1ec7n",
+                "M\u00e1t-xa",
+                "Nh\u00e0 h\u00e0ng",
+                "Nh\u00e0 h\u00e0ng Vi\u1ec7t Nam"
+            ],
+            "amenities": [
+                "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "B\u1eefa s\u00e1ng"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFw8CVTOHk-emYP-XgaOOR1o3wc6x9mK8_icWdwphF8h0i1MpEJLyHiWxCdetBrjwByYWS0za3Azb7dFRk8erktdxs_StUwDTLCqLZoN6GvSkhGMAJY9MF3KAXMFzL8B2q0nEBdrc5IRcC7cf29UTJxcJ7dPjNUQgaIIXZu1nfsDBMB035_17waHw=w138-h92-k-no"
+        }
+    ]
+}

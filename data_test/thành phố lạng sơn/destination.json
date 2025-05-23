@@ -1,0 +1,62 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "country": "Vi\u1ec7t Nam",
+                "country_code": "vn",
+                "state": "T\u1ec9nh L\u1ea1ng S\u01a1n",
+                "city": "Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n",
+                "postcode": "00251",
+                "iso3166_2": "VN-09",
+                "lon": 106.7597458,
+                "lat": 21.8528759,
+                "result_type": "postcode",
+                "formatted": "Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n, T\u1ec9nh L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+                "address_line1": "Th\u00e0nh ph\u1ed1 L\u1ea1ng S\u01a1n",
+                "address_line2": "T\u1ec9nh L\u1ea1ng S\u01a1n, Vi\u1ec7t Nam",
+                "category": "administrative",
+                "timezone": {
+                    "name": "Asia/Bangkok",
+                    "offset_STD": "+07:00",
+                    "offset_STD_seconds": 25200,
+                    "offset_DST": "+07:00",
+                    "offset_DST_seconds": 25200
+                },
+                "plus_code": "7PH8VQ35+5V",
+                "rank": {
+                    "importance": 0.8275034456793544,
+                    "popularity": 0.5110493167154017,
+                    "confidence": 0,
+                    "confidence_city_level": 0,
+                    "match_type": "full_match"
+                },
+                "place_id": "517f11d9ac9fb05a4059ec0b321356da3540f00101f901166e6c0000000000c0020792030830303235312b766e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7597458,
+                    21.8528759
+                ]
+            },
+            "bbox": [
+                106.696762,
+                21.781578,
+                106.8002233,
+                21.9275983
+            ]
+        }
+    ],
+    "query": {
+        "text": "th\u00e0nh ph\u1ed1 l\u1ea1ng s\u01a1n",
+        "country": "Vi\u1ec7t Nam"
+    }
+}
