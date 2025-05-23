@@ -1,15 +1,15 @@
-python-dotenv==1.0.0
-streamlit==1.29.0
-requests==2.31.0
-pandas==2.1.4
-streamlit-folium==0.18.0
-pydantic==2.5.3
-langchain==0.0.353
-tiktoken==0.5.2
-openai==1.6.1
-faiss-cpu==1.7.4
-transformers==4.36.2
-sentence_transformers==2.2.2
+python-dotenv
+streamlit
+requests
+pandas
+streamlit-folium
+pydantic
+langchain
+tiktoken
+#openai==1.6.1
+faiss-cpu
+transformers
+sentence_transformers
 
 langchain_community
 langchain_openai
@@ -17,5 +17,4 @@ langchain_openai
 #tokenizers
 #mmh3
 #snowballstemmer
-sentence_transformers 
 pyjwt
