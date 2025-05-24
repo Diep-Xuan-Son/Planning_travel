@@ -16,19 +16,24 @@ import requests
 import traceback
 import re as regex
 import pandas as pd
+from pydantic import BaseModel
 from dataclasses import dataclass, field
-# from openai import OpenAI, AuthenticationError
 from typing import List, Dict, Any, Callable, Union
 
 # from prompts import *
+from langchain_openai import ChatOpenAI
 from langchain.chains import RetrievalQA
-from prompts import TRAVELING_AGENT_PROMPT
 from langchain.prompts import PromptTemplate
 from langchain_community.vectorstores import FAISS
 from sentence_transformers import SentenceTransformer
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferMemory
-from langchain_openai import ChatOpenAI
+from langchain_core.prompts import ChatPromptTemplate
+from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import DataFrameLoader
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
+
+from prompts import TRAVELING_AGENT_PROMPT, CITY_PROMPT
 
 # Tool definitions
 @dataclass
@@ -120,12 +125,23 @@ class Agent:
         self.conversation_history.append(message)
         return
 
-    def process_query(self, query: str, context: str, is_stream: bool=False) -> str:
-        res = self.llm(prompt=USER_PROMPT.format(query=query) + context, is_stream=is_stream)
-        message_res = ""
-        for r in res:
-            message_res += r
-        return message_res
+    def process_query(self, OutputStructured: object=None,  **kwargs) -> str:
+        def OutputStructuredBase(BaseModel):
+            """Format the response as JSON with value is text and key is 'result'"""
+        prompt = self.description
+        chat_prompt = ChatPromptTemplate.from_messages(
+            [
+                SystemMessage(content=f"You are a {self.name}"),
+                HumanMessage(content=prompt.format(**kwargs))
+            ]
+        )
+        if OutputStructured is not None:
+            structured_output = self.llm.with_structured_output(OutputStructured)
+        else:
+            structured_output = self.llm.with_structured_output(OutputStructuredBase)
+        chain = chat_prompt | structured_output
+        result = chain.invoke({})
+        return result
 
     def process_query_stream(self, query: str, context: str, is_stream: bool=True) -> str:
         res = self.llm(prompt=USER_PROMPT.format(query=query) + context, is_stream=is_stream)
@@ -240,11 +256,11 @@ class TravelAgentTool():
             llm = llm
         )
 
-        # self.synthesis_agent = Agent(
-        #   name="Synthesis Assistant",
-        #   description=SYNTHESIS_AGENT,
-        #   llm = llm
-        # )
+        self.city_agent = Agent(
+          name="City Selection Assistant",
+          description=CITY_PROMPT,
+          llm = llm
+        )
 
         # self.get_memory_agent = Agent(
         #   name="Get Memorry Assisstant",
@@ -293,10 +309,23 @@ class TravelAgentTool():
             return [item.replace('\xa0', ' ') if isinstance(item, str) else item for item in x]
         return x
 
+    @staticmethod
+    def clean_response(response):
+        pattern = r'{.*}'
+        clean_answer = regex.findall(pattern, response["result"].replace("```", "").strip(), regex.DOTALL)
+        
+        if isinstance(clean_answer, list):
+            clean_answer = clean_answer[0]
+        clean_answer = eval(clean_answer)
+        print(clean_answer)
+
+        return clean_answer
+
     def prepare_data(self, destination: str="Thành phố Lạng Sơn", min_rating: float=4.0, radius: int=3000):
-        destination = destination.lower()
+        destination_refined = self.city_agent.process_query(query=destination)
+        destination = destination_refined["result"].lower()
         folder_data_test = f"{DIR}/data_test"
-        folder_data_place = os.path.join(folder_data_test, destination)
+        folder_data_place = os.path.join(folder_data_test, destination.replace(" ", "_").replace(",", "_"))
         check_folder_exist(folder_data_place)
 
         if not os.path.exists(os.path.join(folder_data_place, f"destination.json")):
@@ -375,18 +404,18 @@ class TravelAgentTool():
                 result_tourist = json.load(f)
 
         df_hotel = pd.json_normalize(result_hotel['local_results'])
-        df_hotel["type"] = "Hotel"
+        df_hotel["type"] = "Khách sạn"
 
         df_restaurant = pd.json_normalize(result_restaurant["local_results"])
-        df_restaurant["type"] = "Restaurant"
+        df_restaurant["type"] = "Nhà hàng"
 
         df_tourist = pd.json_normalize(result_tourist['local_results'])
-        df_tourist["type"] = "Tourist"
+        df_tourist["type"] = "Điểm du lịch"
 
         df_place = pd.concat([df_hotel, df_restaurant, df_tourist], ignore_index=True)
         df_place = df_place.sort_values(by=['reviews', 'rating'], ascending=[False, False]).reset_index(drop=True)
         df_place = df_place.map(self.clean_text)
-        df_place['combined_info'] = df_place.apply(lambda row: f"Type: {row['type']}, Name: {row['title']}. Rating: {row['rating']}. Address: {row['address']}. Website: {row['website']}", axis=1)
+        df_place['combined_info'] = df_place.apply(lambda row: f"Type: {row['type']}, Name: {row['title']}. Rating: {row['rating']}. Number of user ratings: {row['reviews']}. Address: {row['address']}. Phone number: {row['phone']}. Latitude: {row['gps_coordinates.latitude']}. Longitude: {row['gps_coordinates.longitude']}. Website: {row['website']}", axis=1)
         df_place_rename = df_place.rename(columns={
             'type': 'Type',
             'title': 'Name',
@@ -405,20 +434,24 @@ class TravelAgentTool():
         # print(df_place_brief[df_place_brief["Rating"] > 4])
 
         df_place_rename = df_place_rename[df_place_rename["Rating"] > 4]
-        df_place_brief[df_place_brief["Rating"] > 4]
+        df_place_brief = df_place_brief[df_place_brief["Rating"] > 4]
         
         return df_place_rename, df_place_brief, circle_center
 
     def prepare_vector_data(self, data):
         # Load Processed Dataset
-        loader = DataFrameLoader(df_place_rename, page_content_column="combined_info")
+        loader = DataFrameLoader(data, page_content_column="combined_info")
         docs  = loader.load()
 
         # Document splitting
         text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
         texts = text_splitter.split_documents(docs)
 
-        embeddings = MyEmbeddings(model="./weights/nomic-embed-text-v1.5")
+        embeddings = HuggingFaceEmbeddings(
+            model_name="./weights/nomic-embed-text-v1.5",
+            model_kwargs={'device': 'cpu', "trust_remote_code": True},        # hoặc 'cuda' nếu có GPU
+            encode_kwargs={'normalize_embeddings': False}
+        )
         # Vector DB
         vectorstore  = FAISS.from_documents(texts, embeddings)
 
@@ -442,12 +475,48 @@ class TravelAgentTool():
         return vectorstore, prompt, memory
 
 if __name__=="__main__":
-    secret = "my sim chatbot"
-    token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5Ijoic2stcHJvai1weFVoZmkyZDY4QUphQXhIM0lWaFJJM0hfNXltVGFFYkRtZlJzRnltbEZVN0RHVTlteXZuNnkwbkE2c0x0WXpYSXdid09iYm9HWFQzQmxia0ZKUEFidThqbG1rM3RmUERCT2hYRjFkcWpRNDJKOVh4WFdSc2hyTi1tRGtlUTdkRVBhaDBJY0ViSXFSQXlvYTlxRzVRdHdUN3NMc0EifQ.Ozel4UKEN7_359DkrgwGIuuPIL07z3oKnv6WoK71_P0'
+    secret = "MMV"
+    token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5Ijoic2stcHJvai1QSDNHNnlMVEticmdvaU9ieTA4YlVMNHc0eVYxR3NJa25IeEltTl9VMFI1WmVsOWpKcDI0MzZuNUEwOTdVdTVDeXVFMDJha1RqNVQzQmxia0ZKX3dJTUw2RHVrZzh4eWtsUXdsMTN0b2JfcGVkV1c0T1hsNzhQWGVIcDhOLW1DNjY1ZE1CdUlLMFVlWEt1bzRRUnk2Ylk1dDNYSUEifQ.2qjUENU0rafI6syRlTfnKIsm6O4zuhHRqahUcculn8E'
     api_key_openai = jwt.decode(token, secret, algorithms=["HS256"])["api_key"]
     api_key_searchapi = "dZ3hmBQcvs1L4yDVbCjL8aXt"
 
     travel_agent = TravelAgentTool(api_key=api_key_openai, api_key_searchapi=api_key_searchapi, dbmem_name="Memory", redis_url="", redis_port=6400)
-    travel_agent.prepare_data()
+    df_place = travel_agent.prepare_data()
 
+    vector_dt = travel_agent.prepare_vector_data(data=df_place[0])
+    qa = RetrievalQA.from_chain_type(
+        llm=travel_agent.travel_planning_agent.llm,
+        chain_type='stuff',
+        retriever=vector_dt[0].as_retriever(search_kwargs={"k": 8}),
+        verbose=True,
+        chain_type_kwargs={
+            "verbose": True,
+            "prompt": vector_dt[1],
+            "memory": vector_dt[2]}
+    )
+
+    response: str = qa.invoke({"query": "đề xuất cho tôi một số nhà hàng"})
+    print(response)
+    print(response['result'].split("\n\n"))
+    list_place = response['result'].split("\n\n")
     
+    # list_place = ['Dưới đây là một số nhà hàng mà bạn có thể tham khảo:', '1. **Nhà hàng Áp Chao Xuân Sửu**\n   - Địa chỉ: 8 Phố Thân Thừa Quý, Vĩnh Trại, Thành phố Lạng Sơn, Lạng Sơn 240000, Việt Nam\n   - Số điện thoại: 0986 301 488\n   - Đánh giá: 4.2 (231 đánh giá)\n   - Vĩ độ: 21.8536395\n   - Kinh độ: 106.7593418\n   - Website: nan', '2. **Gà Đồi 207 Lê Lợi**\n   - Địa chỉ: 207 Lê Lợi, Vĩnh Trại, Thành phố Lạng Sơn, Lạng Sơn, Việt Nam\n   - Số điện thoại: 0356 797 688\n   - Đánh giá: 4.3 (44 đánh giá)\n   - Vĩ độ: 21.8547852\n   - Kinh độ: 106.7668261\n   - Website: nan', '3. **Ẩm thực Hồng Kông**\n   - Địa chỉ: 72 Lê Lợi, Vĩnh Trại, Thành phố Lạng Sơn, Lạng Sơn, Việt Nam\n   - Số điện thoại: 0966 583 686\n   - Đánh giá: 4.8 (12 đánh giá)\n   - Vĩ độ: 21.8543218\n   - Kinh độ: 106.7663923\n   - Website: nan', 'Hy vọng bạn tìm được nhà hàng ưng ý!']
+    for place in list_place:
+        if "Vĩ độ" in place:
+            pattern = r'Vĩ độ: \d+\.\d+'
+            lat = regex.findall(pattern, place.strip(), regex.DOTALL)
+            pattern = r'\d+\.\d+'
+            lat = regex.findall(pattern, lat[0].strip(), regex.DOTALL)
+            print(lat)
+        if "Kinh độ" in place:
+            pattern = r'Kinh độ: \d+\.\d+'
+            lon = regex.findall(pattern, place.strip(), regex.DOTALL)
+            pattern = r'\d+\.\d+'
+            lon = regex.findall(pattern, lon[0].strip(), regex.DOTALL)
+            print(lon)
+            if "Nhà hàng" in place:
+                print("Nhà hàng")
+            if "Khách sạn" in place:
+                print("Khách sạn")
+            if "Điểm du lịch" in place:
+                print("Điểm du lịch")

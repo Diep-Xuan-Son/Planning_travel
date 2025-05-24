@@ -9,7 +9,7 @@ headers = CaseInsensitiveDict()
 headers["Accept"] = "application/json"
 
 params = {
-	"text": "Thành phố Lạng Sơn",
+	"text": "Thành phố Cẩm Phả, tỉnh Quảng Ninh",
 	"country": "Việt Nam",
 	"limit": 1,
 	"lang": "vi",
@@ -60,14 +60,14 @@ circle_radius = radius
 # print(res.json())
 
 
-#-----------------------------------------------
-url_search_detail = "https://api.geoapify.com/v2/place-details"
-params_hotel = {
-	"lat": 21.8542927,
-	"lon": 106.7568197,
-	"features": f"details",
-	"lang": "vi",
-	"apiKey": api_key
-}
-res = requests.request("GET", url=url_search_detail, params=params_hotel, headers=headers)
-print(res.json())
+# #-----------------------------------------------
+# url_search_detail = "https://api.geoapify.com/v2/place-details"
+# params_hotel = {
+# 	"lat": 21.8542927,
+# 	"lon": 106.7568197,
+# 	"features": f"details",
+# 	"lang": "vi",
+# 	"apiKey": api_key
+# }
+# res = requests.request("GET", url=url_search_detail, params=params_hotel, headers=headers)
+# print(res.json())

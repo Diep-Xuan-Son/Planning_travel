@@ -13,6 +13,7 @@ sentence_transformers
 
 langchain_community
 langchain_openai
+langchain_huggingface
 #huggingface_hub
 #tokenizers
 #mmh3

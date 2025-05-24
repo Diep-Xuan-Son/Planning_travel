@@ -1,0 +1,1032 @@
+{
+    "search_metadata": {
+        "id": "search_7Lmagj14Ooquw5oQ745E8MQp",
+        "status": "Success",
+        "created_at": "2025-05-24T09:48:13Z",
+        "request_time_taken": 2.14,
+        "parsing_time_taken": 0.02,
+        "total_time_taken": 2.15,
+        "request_url": "https://www.google.com/maps/search/Tourist+Attractions/@21.0242596,105.8406959,3000m?hl=vi",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_7Lmagj14Ooquw5oQ745E8MQp.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_7Lmagj14Ooquw5oQ745E8MQp"
+    },
+    "search_parameters": {
+        "engine": "google_maps",
+        "q": "Tourist Attractions",
+        "ll": "@21.0242596,105.8406959,3000m",
+        "google_domain": "google.com",
+        "hl": "vi"
+    },
+    "search_information": {
+        "query_displayed": "Tourist Attractions",
+        "state": "Showing results for original spelling."
+    },
+    "local_results": [
+        {
+            "position": 1,
+            "ludocid": "103379251130264170498",
+            "place_id": "ChIJ87NZ0GqrNTERFlxiMWBA2pQ",
+            "kgmid": "/g/11scnm7gq4",
+            "data_id": "0x3135ab6ad059b3f3:0x94da406031625c16",
+            "title": "Weekend Walking Street",
+            "address": "5 P. \u0110inh Ti\u00ean Ho\u00e0ng, H\u00e0ng Tr\u1ed1ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.5,
+            "reviews": 202,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ87NZ0GqrNTERFlxiMWBA2pQ&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "gps_coordinates": {
+                "latitude": 21.0315956,
+                "longitude": 105.8530717
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "\u0110\u00f3ng c\u1eeda",
+                "th\u1ee9_ba": "\u0110\u00f3ng c\u1eeda",
+                "th\u1ee9_t\u01b0": "\u0110\u00f3ng c\u1eeda",
+                "th\u1ee9_n\u0103m": "\u0110\u00f3ng c\u1eeda",
+                "th\u1ee9_s\u00e1u": "19:00\u201323:59"
+            },
+            "extensions": [
+                {
+                    "title": "C\u00e1c t\u00f9y cho\u0323n d\u1ecbch v\u1ee5",
+                    "items": [
+                        {
+                            "title": "D\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7",
+                            "value": "C\u00f3 d\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npY6Y7Pak9t_nwoFwPN0XNA4PoXQbNLLtNLWyWoJYwERpVMDnAX62kufPeGOwc9rsZHaJOL9PecCbRaebL50eGgg8zo9dTsjFwaTbby8Nkwv_30V7d0QHS7J7QyvY0XhaYFOtCQ=w138-h92-k-no"
+        },
+        {
+            "position": 2,
+            "place_id": "ChIJX3PmuQurNTER6JpPBhrddxE",
+            "kgmid": "/g/11v02tqpq1",
+            "data_id": "0x3135ab0bb9e6735f:0x1177dd1a064f9ae8",
+            "title": "Hanoi Train Street (Southern)",
+            "address": "Ng. 222 \u0110.L\u00ea Du\u1ea9n, Kh\u00e2m Thi\u00ean, \u0110\u1ed1ng \u0110a, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.6,
+            "reviews": 266,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJX3PmuQurNTER6JpPBhrddxE&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.0167304,
+                "longitude": 105.8412431
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "hours": "\u0110ang m\u1edf c\u1eeda",
+            "extensions": [
+                {
+                    "title": "C\u00e1c t\u00f9y cho\u0323n d\u1ecbch v\u1ee5",
+                    "items": [
+                        {
+                            "title": "D\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7",
+                            "value": "C\u00f3 d\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqQ8R6t7MsFQQFQfkeauhaR9WI4yAzZoItErL0A5VuG4Gqo6fVj8CUrzMHWAh2auARh8PVIml1tw1FJwe8PYPyyLA8e-6J1nagD2ggaZxiFlMR91MHkbfky8QuThi6nYTx6bKBu3g=w122-h92-k-no"
+        },
+        {
+            "position": 3,
+            "ludocid": "115951479816761737966",
+            "place_id": "ChIJ1WMLiMCUNTERPVcuwTgGu_E",
+            "kgmid": "/g/122bg64w",
+            "data_id": "0x313594c0880b63d5:0xf1bb0638c12e573d",
+            "title": "Ph\u1ed1 \u0111i b\u1ed9 H\u1ed3 G\u01b0\u01a1m",
+            "address": "1 P. \u0110inh Ti\u00ean Ho\u00e0ng, H\u00e0ng Tr\u1ed1ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "rating": 4.2,
+            "reviews": 5108,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ1WMLiMCUNTERPVcuwTgGu_E&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "website": "https://vi.wikipedia.org/wiki/Ph%E1%BB%91_%C4%91i_b%E1%BB%99_H%E1%BB%93_G%C6%B0%C6%A1m",
+            "domain": "vi.wikipedia.org",
+            "gps_coordinates": {
+                "latitude": 21.0289145,
+                "longitude": 105.8537635
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_ba": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_t\u01b0": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_n\u0103m": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_s\u00e1u": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y"
+            },
+            "extensions": [
+                {
+                    "title": "C\u00e1c t\u00f9y cho\u0323n d\u1ecbch v\u1ee5",
+                    "items": [
+                        {
+                            "title": "D\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7",
+                            "value": "C\u00f3 d\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n",
+                            "value": "C\u00f3 ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n"
+                        },
+                        {
+                            "title": "Ch\u1ed7 ng\u1ed3i cho xe l\u0103n",
+                            "value": "C\u00f3 ch\u1ed7 ng\u1ed3i cho xe l\u0103n"
+                        },
+                        {
+                            "title": "L\u1ed1i v\u00e0o cho xe l\u0103n",
+                            "value": "C\u00f3 l\u1ed1i v\u00e0o d\u00e0nh ri\u00eang cho xe l\u0103n"
+                        },
+                        {
+                            "title": "Nh\u00e0 v\u1ec7 sinh cho xe l\u0103n",
+                            "value": "C\u00f3 nh\u00e0 v\u1ec7 sinh cho xe l\u0103n"
+                        },
+                        {
+                            "title": "V\u00f2ng tr\u1ee3 th\u00ednh",
+                            "value": "C\u00f3 v\u00f2ng tr\u1ee3 th\u00ednh"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ti\u1ec7n nghi",
+                    "items": [
+                        {
+                            "title": "Nh\u00e0 v\u1ec7 sinh",
+                            "value": "C\u00f3 nh\u00e0 v\u1ec7 sinh"
+                        },
+                        {
+                            "title": "Nh\u00e0 v\u1ec7 sinh cho c\u1ea3 hai gi\u1edbi",
+                            "value": "C\u00f3 nh\u00e0 v\u1ec7 sinh cho c\u1ea3 hai gi\u1edbi"
+                        }
+                    ]
+                },
+                {
+                    "title": "Kh\u00e1ch h\u00e0ng",
+                    "items": [
+                        {
+                            "title": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+",
+                            "value": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+"
+                        },
+                        {
+                            "title": "N\u01a1i an to\u00e0n cho ng\u01b0\u1eddi chuy\u1ec3n gi\u1edbi",
+                            "value": "N\u01a1i an to\u00e0n cho ng\u01b0\u1eddi chuy\u1ec3n gi\u1edbi"
+                        }
+                    ]
+                },
+                {
+                    "title": "Thanh to\u00e1n",
+                    "items": [
+                        {
+                            "title": "S\u00e9c",
+                            "value": "Ch\u1ea5p nh\u1eadn s\u00e9c"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                },
+                {
+                    "title": "B\u00e3i \u0111\u1ed7 xe",
+                    "items": [
+                        {
+                            "title": "B\u00e3i \u0111\u1ed7 xe mi\u1ec5n ph\u00ed",
+                            "value": "B\u00e3i \u0111\u1ed7 xe mi\u1ec5n ph\u00ed"
+                        },
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe trong khu\u00f4n vi\u00ean",
+                            "value": "Ch\u1ed7 \u0111\u1ed7 xe trong khu\u00f4n vi\u00ean"
+                        },
+                        {
+                            "title": "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed tr\u00ean \u0111\u01b0\u1eddng",
+                            "value": "\u0110\u1ed7 xe mi\u1ec5n ph\u00ed tr\u00ean \u0111\u01b0\u1eddng"
+                        },
+                        {
+                            "title": "Gara \u0111\u1ed7 xe mi\u1ec5n ph\u00ed",
+                            "value": "Gara \u0111\u1ed7 xe mi\u1ec5n ph\u00ed"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr1JRWsWScYbKcqQLit1q9s94pbv6ipLMgNrg8ScpplMOtnba615SKs32sNXw47nTADTeQgCM-uSrP7CZchPAnQ4BLcbwCi3UKYT8AjEy375AjDC7bnJSaH3WMgL7GXbCeGlDx1=w80-h142-k-no"
+        },
+        {
+            "position": 4,
+            "ludocid": "113426369303680298347",
+            "place_id": "ChIJhdgfXrirNTER-EREhqaQx28",
+            "kgmid": "/g/11kbx9prh0",
+            "data_id": "0x3135abb85e1fd885:0x6fc790a6864444f8",
+            "title": "Ph\u1ed1 \u0110\u01b0\u1eddng T\u00e0u H\u00e0 N\u1ed9i",
+            "address": "3 P. Tr\u1ea7n Ph\u00fa, H\u00e0ng B\u00f4ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "rating": 4.3,
+            "reviews": 12838,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJhdgfXrirNTER-EREhqaQx28&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "website": "https://shippedaway.com/hanoi-train-street",
+            "domain": "shippedaway.com",
+            "gps_coordinates": {
+                "latitude": 21.0301079,
+                "longitude": 105.844027
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_ba": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_t\u01b0": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_n\u0103m": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_s\u00e1u": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y"
+            },
+            "extensions": [
+                {
+                    "title": "C\u00e1c t\u00f9y cho\u0323n d\u1ecbch v\u1ee5",
+                    "items": [
+                        {
+                            "title": "D\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7",
+                            "value": "C\u00f3 d\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n"
+                        },
+                        {
+                            "title": "L\u1ed1i v\u00e0o cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 l\u1ed1i v\u00e0o cho xe l\u0103n"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npKC1SWGwB0Hf6HZR5z8WkP37zzYP4cTfw0ffUvXLREdY0ORzaxDXCJyK1dv0h9_MNJsvjEVqKB0xlyTU7mDkQfLwwW8nXfJGs80U5Bu_fJg02n68TUhEQ8OD40g1ewCW1dOFG6ZgYQ93o=w122-h92-k-no"
+        },
+        {
+            "position": 5,
+            "ludocid": "108878112834906148104",
+            "place_id": "ChIJVUvVbACrNTERzY_ZFRXbAKc",
+            "kgmid": "/g/11ty77vsr9",
+            "data_id": "0x3135ab006cd54b55:0xa700db1515d98fcd",
+            "title": "Xe 2 t\u1ea7ng H\u00e0 N\u1ed9i - Hop on hop off bus Vietnam Sightseeing",
+            "address": "1 Tr\u00e0ng Ti\u1ec1n, Phan Chu Trinh, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "phone": "0828 605 096",
+            "rating": 4.9,
+            "reviews": 359,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJVUvVbACrNTERzY_ZFRXbAKc&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "review_text": "\"B\u1ea1n Th\u1ea3o Linh d\u1eabn tour v\u1eeba xinh \u0111\u1eb9p v\u1eeba nhi\u1ec7t t\u00ecnh & \u0111\u00e1ng y\u00eau.\"",
+            "website": "https://vn-sightseeing.com/",
+            "domain": "vn-sightseeing.com",
+            "gps_coordinates": {
+                "latitude": 21.0237437,
+                "longitude": 105.8571392
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "\u0110ang m\u1edf c\u1eeda \u22c5 \u0110\u00f3ng c\u1eeda l\u00fac 20:00",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "09:00\u201320:00",
+                "ch\u1ee7_nh\u1eadt": "09:00\u201320:00",
+                "th\u1ee9_hai": "09:00\u201300:00",
+                "th\u1ee9_ba": "00:00\u201308:00",
+                "th\u1ee9_t\u01b0": "09:00\u201320:00",
+                "th\u1ee9_n\u0103m": "09:00\u201320:00",
+                "th\u1ee9_s\u00e1u": "09:00\u201320:00"
+            },
+            "extensions": [
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n",
+                            "value": "C\u00f3 ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n"
+                        }
+                    ]
+                },
+                {
+                    "title": "L\u00ean k\u1ebf ho\u1ea1ch",
+                    "items": [
+                        {
+                            "title": "B\u1ea1n n\u00ean \u0111\u1eb7t v\u00e9 tr\u01b0\u1edbc",
+                            "value": "B\u1ea1n n\u00ean \u0111\u1eb7t v\u00e9 tr\u01b0\u1edbc"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqDDrlih7qELIgXzEE6y5dtoFjy886yS7lF6u2OvJBbOQOw7pVHh8ztpgInEJVbLTsMJEDjOn_p_sHd-66HgFQ81Ujx_qCa0JOq124Jlm1Ry4jaldF3O0-uIVNeslUOKra1tbMX=w80-h171-k-no"
+        },
+        {
+            "position": 6,
+            "ludocid": "105463085443633237523",
+            "place_id": "ChIJ1ex3nZurNTERr6wZrmaffqo",
+            "kgmid": "/g/11j8hfzrtm",
+            "data_id": "0x3135ab9b9d77ecd5:0xaa7e9f66ae19acaf",
+            "title": "Sao Viet Bus",
+            "address": "26 P. T\u1ea1 Hi\u1ec7n, H\u00e0ng Bu\u1ed3m, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 10000, Vi\u1ec7t Nam",
+            "phone": "0853 154 718",
+            "rating": 4.6,
+            "reviews": 457,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ1ex3nZurNTERr6wZrmaffqo&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "website": "https://www.saovietbus.com/",
+            "domain": "saovietbus.com",
+            "gps_coordinates": {
+                "latitude": 21.0342209,
+                "longitude": 105.8519808
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "extensions": [
+                {
+                    "title": "C\u00e1c t\u00f9y cho\u0323n d\u1ecbch v\u1ee5",
+                    "items": [
+                        {
+                            "title": "D\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7",
+                            "value": "C\u00f3 d\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqjIBhI-FOpS17qPX-dEpn_m7NfzzAEzjj3zfDOaQm4jmgHa-oMlK_AEyxoomJQp3xK89SttxCfzEGKEfDcltupRrH7sHIjukM1lmI4s4Wd0sBINWZ1SUKKsCWlNKGZmT6hohY1=w80-h105-k-no"
+        },
+        {
+            "position": 7,
+            "ludocid": "104277974002228614410",
+            "place_id": "ChIJq3T86e4LzDYRSfQsaqCWjM0",
+            "kgmid": "/g/11fpp436g1",
+            "data_id": "0x36cc0beee9fc74ab:0xcd8c96a06a2cf449",
+            "title": "JASMINE TOUR HAGIANG",
+            "address": "19 P. M\u00e3 M\u00e2y, H\u00e0ng Bu\u1ed3m, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "0985 873 537",
+            "rating": 4.6,
+            "reviews": 226,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJq3T86e4LzDYRSfQsaqCWjM0&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "review_text": "\"\u0110\u01b0\u1eddng v\u00e0o \u0111\u1ed9c \u0111\u1ea1o, h\u01a1i kh\u00f3 \u0111i nh\u01b0ng b\u00ean trong \u0111\u1ed9ng r\u1ea5t l\u00e0 \u0111\u1eb9p\"",
+            "website": "http://hagiangjasminetour.com/hagiang-jasmine-tour/",
+            "domain": "hagiangjasminetour.com",
+            "gps_coordinates": {
+                "latitude": 21.0359233,
+                "longitude": 105.8533255
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "extensions": [
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n"
+                        },
+                        {
+                            "title": "L\u1ed1i v\u00e0o cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 l\u1ed1i v\u00e0o cho xe l\u0103n"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4np9lCgMR3nk51kp2x-tbMBy4yhiZgDTmU4VYHfkFEISKICkBjpx9vz4YkcKDqzh4wfvCyyqrgfk_VJdOefmmqmf7lUkC_PGNLS2fQWIqzYM4hT7RHwpWXIOsCENiSzqzi4q4w=w162-h92-k-no"
+        },
+        {
+            "position": 8,
+            "place_id": "ChIJWevFvdWrNTERhJaL7Y7fnj8",
+            "kgmid": "/g/11k0m_5c1l",
+            "data_id": "0x3135abd5bdc5eb59:0x3f9edf8eed8b9684",
+            "title": "International Intersection",
+            "address": "20 P. T\u1ea1 Hi\u1ec7n, H\u00e0ng Bu\u1ed3m, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.1,
+            "reviews": 25,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJWevFvdWrNTERhJaL7Y7fnj8&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.0346767,
+                "longitude": 105.8521574
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "\u0110\u00f3ng c\u1eeda",
+            "hours": "S\u1eafp m\u1edf \u22c5 17:00",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "17:00\u201300:00",
+                "ch\u1ee7_nh\u1eadt": "17:00\u201300:00",
+                "th\u1ee9_hai": "17:00\u201300:00",
+                "th\u1ee9_ba": "17:00\u201300:00",
+                "th\u1ee9_t\u01b0": "17:00\u201300:00",
+                "th\u1ee9_n\u0103m": "17:00\u201300:00",
+                "th\u1ee9_s\u00e1u": "17:00\u201300:00"
+            },
+            "extensions": [
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrPO6P2Ig8NIXuhongtOxuyVTts0CMeCq0R6qxb67NXyTfvGpPxsGr7AvLy6cHA_05xDAWnHIXVuKEC34SxZI7KdAxFSVZBFSZlS0fkcTkKWWBPO_e4Epy7h9mYC-2kPzPtO78t=w80-h106-k-no"
+        },
+        {
+            "position": 9,
+            "ludocid": "117842897815630135322",
+            "place_id": "ChIJm3YS_eqrNTERUWy7787s8sc",
+            "kgmid": "/g/1jkvl8slf",
+            "data_id": "0x3135abeafd12769b:0xc7f2ecceefbb6c51",
+            "title": "Nh\u00e0 B\u00e1t gi\u00e1c H\u1ed3 G\u01b0\u01a1m",
+            "address": "P. L\u00ea Th\u1ea1ch, Tr\u00e0ng Ti\u1ec1n, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.6,
+            "reviews": 178,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJm3YS_eqrNTERUWy7787s8sc&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "review_text": "\"C\u1ed5 k\u00ednh, s\u00e2n ch\u01a1i r\u1ed9ng, \u0111\u1ee7 l\u1ee9a tu\u1ed5i vui ch\u01a1i.\"",
+            "gps_coordinates": {
+                "latitude": 21.0274259,
+                "longitude": 105.8548704
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+                "C\u00e2u l\u1ea1c b\u1ed9 th\u1ec3 thao"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_ba": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_t\u01b0": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_n\u0103m": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_s\u00e1u": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y"
+            },
+            "extensions": [
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrPhMwihzP0HUBPqn0s8IBIiMDNxTFGzLwyR2SPFmcGS2S6ZEVRh0Y6-1G8DscWFu7ZZaFLtSVspEShZLLoK7Otc6hFNnlV9O89F72yvaAI3m4xrZ54jmNZtzZh2P6HzZFWEvhB=w122-h92-k-no"
+        },
+        {
+            "position": 10,
+            "ludocid": "100485766183248839407",
+            "place_id": "ChIJp0o4Er6rNTERjlTif_IXU1k",
+            "kgmid": "/g/11b8tc18h5",
+            "data_id": "0x3135abbe12384aa7:0x595317f27fe2548e",
+            "title": "Khu Ph\u1ed1 C\u1ed5 H\u00e0 N\u1ed9i",
+            "description": "Khu v\u1ef1c b\u00e1n th\u1ee9c \u0103n, c\u00f3 ch\u1ee3 v\u00e0 nh\u00e0 \u1ed1ng. Khu giao th\u01b0\u01a1ng l\u00e2u \u0111\u1eddi, c\u00f3 ch\u1ee3 \u0111\u00eam, nh\u1eefng con ng\u00f5 nh\u1ecf, qu\u1ea7y h\u00e0ng rong v\u00e0 nh\u00e0 c\u1eeda x\u00e2y h\u00ecnh \u1ed1ng.",
+            "address": "P. H\u00e0ng Ngang, H\u00e0ng \u0110\u00e0o, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "rating": 4.5,
+            "reviews": 7304,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJp0o4Er6rNTERjlTif_IXU1k&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "gps_coordinates": {
+                "latitude": 21.034059,
+                "longitude": 105.8506368
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+                "\u0110i\u1ec3m m\u1ed1c l\u1ecbch s\u1eed"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_ba": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_t\u01b0": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_n\u0103m": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_s\u00e1u": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y"
+            },
+            "extensions": [
+                {
+                    "title": "C\u00e1c t\u00f9y cho\u0323n d\u1ecbch v\u1ee5",
+                    "items": [
+                        {
+                            "title": "D\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7",
+                            "value": "C\u00f3 d\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npbztg6lb5W8CCAuwlT2hVde3DjoPcSxpAYdgf4ZnNMqVaz09mxmiKBecE-GGy2YM_bDF8Hbqrs68eEqbP6ENhPB4JeU_mI47_1m8o2byiY9B0nsIe4Szk8q0wJ3cB1g8gbhYJU8w=w163-h92-k-no"
+        },
+        {
+            "position": 11,
+            "place_id": "ChIJtculQ2urNTEREGl1AgoisTU",
+            "kgmid": "/g/11tjcw4c67",
+            "data_id": "0x3135ab6b43a5cbb5:0x35b1220a02756910",
+            "title": "Traditional house of the Hanoi",
+            "address": "Nh\u00e0 c\u1ed5, 87 M\u00e3 M\u00e2y, 87 P. M\u00e3 M\u00e2y, H\u00e0ng Bu\u1ed3m, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.1,
+            "reviews": 20,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJtculQ2urNTEREGl1AgoisTU&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "review_text": "\"Nh\u00e0 c\u1ed5, phong c\u00e1ch x\u01b0a, mang n\u00e9t c\u1ed5 k\u00ednh, c\u00f3 v\u00e9 10k khi v\u00e0o.\"",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.0343995,
+                "longitude": 105.8535858
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "\u0110ang m\u1edf c\u1eeda \u22c5 \u0110\u00f3ng c\u1eeda l\u00fac 22:00",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "08:00\u201312:00",
+                "ch\u1ee7_nh\u1eadt": "08:00\u201312:00",
+                "th\u1ee9_hai": "08:00\u201312:00",
+                "th\u1ee9_ba": "08:00\u201312:00",
+                "th\u1ee9_t\u01b0": "08:00\u201312:00",
+                "th\u1ee9_n\u0103m": "08:00\u201312:00",
+                "th\u1ee9_s\u00e1u": "08:00\u201312:00"
+            },
+            "extensions": [
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq8kwiIpIoHeYmP_u_8xxmJ1X53EKJoUmzwxWpe275HMso5yUVpwiJAMwbcWV__qQlOBr3iortPmS8V8tFIBD6FlrMyKqnk0Jk6gJlQQIK_KxTlAbbCSB7L23eifKJJOKRIyox7=w122-h92-k-no"
+        },
+        {
+            "position": 12,
+            "ludocid": "102942315140061198562",
+            "place_id": "ChIJPZ8t3QSrNTERa8WFroneTM4",
+            "kgmid": "/g/11kc3fnfnb",
+            "data_id": "0x3135ab04dd2d9f3d:0xce4cde89ae85c56b",
+            "title": "Hanoi Train Street Tours",
+            "address": "17 P. M\u00e3 M\u00e2y, Ph\u1ed1 c\u1ed5 H\u00e0 N\u1ed9i, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "0853 154 718",
+            "rating": 4.3,
+            "reviews": 118,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJPZ8t3QSrNTERa8WFroneTM4&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "website": "https://hanoitrainstreettours.com/",
+            "domain": "hanoitrainstreettours.com",
+            "gps_coordinates": {
+                "latitude": 21.035738,
+                "longitude": 105.8534069
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "extensions": [
+                {
+                    "title": "C\u00e1c t\u00f9y cho\u0323n d\u1ecbch v\u1ee5",
+                    "items": [
+                        {
+                            "title": "D\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7",
+                            "value": "C\u00f3 d\u1ecbch v\u1ee5 t\u1ea1i ch\u1ed7"
+                        }
+                    ]
+                },
+                {
+                    "title": "Ph\u00f9 h\u1ee3p cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt",
+                    "items": [
+                        {
+                            "title": "Ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 ch\u1ed7 \u0111\u1ed7 xe cho xe l\u0103n"
+                        },
+                        {
+                            "title": "L\u1ed1i v\u00e0o cho xe l\u0103n",
+                            "value": "Kh\u00f4ng c\u00f3 l\u1ed1i v\u00e0o cho xe l\u0103n"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noGlJkWVJ5qCAwaMFW0ZL6EK87SKTkW0HVcZWQfmHiCZggrBgcVKGnaT8ZijUP8VUwKt3p0G-M_jMllnbVOIHFbaWy_lihjPLng5tVTEj4tYSEw7wJ9TBSPWaNiFNrbaSJZJFs=w122-h92-k-no"
+        },
+        {
+            "position": 13,
+            "place_id": "ChIJ97zZYJmrNTERiYRTZw0reL0",
+            "kgmid": "/g/11sc9_tqdr",
+            "data_id": "0x3135ab9960d9bcf7:0xbd782b0d67538489",
+            "title": "City Sightseeing Ticketing Counter",
+            "address": "6A P. Phan Chu Trinh, Phan Chu Trinh, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.0,
+            "reviews": 82,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ97zZYJmrNTERiYRTZw0reL0&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "review_text": "\"Tr\u01b0\u1edbc m\u00ecnh \u0111i l\u00e0 300k/l\u01b0\u1ee3t/ng\u01b0\u1eddi, h\u00f4m nay th\u1ea5y gi\u1ea3m c\u00f2n 150k.\"",
+            "is_unclaimed_listing": true,
+            "website": "https://city-sightseeing.com/en/155/hanoi",
+            "domain": "city-sightseeing.com",
+            "gps_coordinates": {
+                "latitude": 21.0238801,
+                "longitude": 105.8573639
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "\u0110ang m\u1edf c\u1eeda \u22c5 \u0110\u00f3ng c\u1eeda l\u00fac 19:30",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "09:00\u201319:30",
+                "ch\u1ee7_nh\u1eadt": "09:00\u201319:30",
+                "th\u1ee9_hai": "09:00\u201319:30",
+                "th\u1ee9_ba": "09:00\u201319:30",
+                "th\u1ee9_t\u01b0": "09:00\u201319:30",
+                "th\u1ee9_n\u0103m": "09:00\u201319:30",
+                "th\u1ee9_s\u00e1u": "09:00\u201319:30"
+            },
+            "extensions": [
+                {
+                    "title": "L\u00ean k\u1ebf ho\u1ea1ch",
+                    "items": [
+                        {
+                            "title": "B\u1ea1n n\u00ean \u0111\u1eb7t v\u00e9 tr\u01b0\u1edbc",
+                            "value": "B\u1ea1n n\u00ean \u0111\u1eb7t v\u00e9 tr\u01b0\u1edbc"
+                        }
+                    ]
+                },
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noUAwQAk0DAihiakvjbA-Nwy2ulkgMiRmCwKqLaAwrbbs96EUtytkaAie9PvjkEO_YzId-RWk_BpUPm1jphRiAHQF6l_sRRKOTE9dAgtMLP2b0RXgY7cM9ljTzaR3kTmDU-zs6EWg=w122-h92-k-no"
+        },
+        {
+            "position": 14,
+            "ludocid": "117781361065849626099",
+            "place_id": "ChIJb84HLb-rNTERHlS-hFuXkwk",
+            "kgmid": "/g/11v5s03z94",
+            "data_id": "0x3135abbf2d07ce6f:0x993975b84be541e",
+            "title": "Hanoi Golden Travelers",
+            "address": "Travel desk inside lobby hotel, 10 P. L\u00fd Th\u00e1i T\u1ed5, L\u00fd Th\u00e1i T\u1ed5, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 10000, Vi\u1ec7t Nam",
+            "phone": "0814 735 910",
+            "rating": 4.8,
+            "reviews": 15,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJb84HLb-rNTERHlS-hFuXkwk&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "website": "https://hanoigoldentravelers.com/index.php",
+            "domain": "hanoigoldentravelers.com",
+            "gps_coordinates": {
+                "latitude": 21.0310738,
+                "longitude": 105.854594
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "\u0110ang m\u1edf c\u1eeda \u22c5 \u0110\u00f3ng c\u1eeda l\u00fac 22:00",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "07:30\u201322:00",
+                "ch\u1ee7_nh\u1eadt": "07:30\u201322:00",
+                "th\u1ee9_hai": "07:30\u201322:00",
+                "th\u1ee9_ba": "07:30\u201322:00",
+                "th\u1ee9_t\u01b0": "07:30\u201322:00",
+                "th\u1ee9_n\u0103m": "07:30\u201322:00",
+                "th\u1ee9_s\u00e1u": "07:30\u201322:00"
+            },
+            "extensions": [
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPa7xxq3fC1aGkXRbTCF8p93Jby8s6FjFYZWSqR=w122-h92-k-no"
+        },
+        {
+            "position": 15,
+            "place_id": "ChIJqyT4JJmrNTERSCX5Yt9nwiY",
+            "kgmid": "/g/11cn3kgfv5",
+            "data_id": "0x3135ab9924f824ab:0x26c267df62f92548",
+            "title": "Khu\u00ea V\u0103n C\u00e1c",
+            "address": "2RHP+C8P, P.T\u00f4n \u0110\u1ee9c Th\u1eafng, V\u0103n Mi\u1ebfu, \u0110\u1ed1ng \u0110a, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.6,
+            "reviews": 321,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJqyT4JJmrNTERSCX5Yt9nwiY&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "review_text": "\"\u0110\u00e2y l\u00e0 n\u01a1i \u0111\u01b0\u1ee3c ch\u1ecdn \u0111\u1ec3 ng\u1ee3i ca s\u1ef1 h\u1ecdc, khuy\u1ebfn kh\u00edch con \u0111\u01b0\u1eddng khoa b\u1ea3ng.\"",
+            "gps_coordinates": {
+                "latitude": 21.0285785,
+                "longitude": 105.8358425
+            },
+            "type": "\u0110\u1ecba \u0111i\u1ec3m l\u1ecbch s\u1eed",
+            "types": [
+                "\u0110\u1ecba \u0111i\u1ec3m l\u1ecbch s\u1eed",
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "S\u1eafp \u0111\u00f3ng c\u1eeda \u22c5 17:00 \u22c5 M\u1edf l\u00fac 7:30 CN",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "07:30\u201317:00",
+                "ch\u1ee7_nh\u1eadt": "07:30\u201317:00",
+                "th\u1ee9_hai": "07:30\u201317:00",
+                "th\u1ee9_ba": "07:30\u201317:00",
+                "th\u1ee9_t\u01b0": "07:30\u201317:00",
+                "th\u1ee9_n\u0103m": "07:30\u201317:00",
+                "th\u1ee9_s\u00e1u": "07:30\u201317:00"
+            },
+            "extensions": [
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrtbbX3Yh7ygn_L46REyhT6MInhNQKTR8a1u2sQmrnWQ8bFblj9Vbvs5SESpLLoTTWdF11xord3_0SiqQUKp7NV_5CPh7h1F9FAKVdLo4ERjfnyiHS_HLBE2Akvi1ARKHV9LuD2xg=w138-h92-k-no"
+        },
+        {
+            "position": 16,
+            "place_id": "ChIJt2fG42erNTER6S7_qA8dupI",
+            "kgmid": "/g/11h6r_gb28",
+            "data_id": "0x3135ab67e3c667b7:0x92ba1d0fa8ff2ee9",
+            "title": "French Quarter Heritage House NGT 13",
+            "address": "13 P. Nguy\u1ec5n Gia Thi\u1ec1u, Tr\u1ea7n H\u01b0ng \u0110\u1ea1o, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 3.6,
+            "reviews": 7,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJt2fG42erNTER6S7_qA8dupI&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.0198877,
+                "longitude": 105.8466083
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "extensions": [
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq8gueaKODJzN0Rofn_kp7SFXQVThlVMngfOmvOMYw9X8fWO4x5X4wO82CO0omCg5Pt6mck-d4cawA6LFxwjw97qSJmfKBxIFTyM7BC0QEIfqRh53zAUxbxGeOG_EfgT5eVKORP=w80-h106-k-no"
+        },
+        {
+            "position": 17,
+            "place_id": "ChIJgUJXkrirNTERwDyyf1x5lFw",
+            "kgmid": "/g/11t9q_z8r3",
+            "data_id": "0x3135abb892574281:0x5c94795c7fb23cc0",
+            "title": "Tiger Crystal corner",
+            "address": "41 P. L\u01b0\u01a1ng Ng\u1ecdc Quy\u1ebfn, H\u00e0ng Bu\u1ed3m, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.3,
+            "reviews": 20,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJgUJXkrirNTERwDyyf1x5lFw&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "review_text": "\"V\u1ecb tr\u00ed trung t\u00e2m kh\u00f4ng kh\u00ed n\u00e1o nhi\u1ec7t\"",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.0346538,
+                "longitude": 105.8522197
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_ba": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_t\u01b0": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_n\u0103m": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_s\u00e1u": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y"
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq4uMNor-4Fp6EM25WERtjmfatIhQ5Lh-5rtxuGlid-QbTkMNkSEQhqCZmdZcYB_up8CuoRGQfjgGgK1mNYfdJtCcN9PDrkBqDdW974LDke29ALrRg9LsBerTyQviYUGnNKt0qM=w80-h106-k-no"
+        },
+        {
+            "position": 18,
+            "place_id": "ChIJRR_LSgCrNTERYCjI7c9xolo",
+            "kgmid": "/g/11ww_vsg5d",
+            "data_id": "0x3135ab004acb1f45:0x5aa271cfedc82860",
+            "title": "Hanoi",
+            "address": "60 P. Ng\u1ecdc H\u00e0, Ng\u1ecdc H\u1ed3, Ba \u0110\u00ecnh, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "rating": 5.0,
+            "reviews": 4,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJRR_LSgCrNTERYCjI7c9xolo&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.0351505,
+                "longitude": 105.8314829
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_ba": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_t\u01b0": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_n\u0103m": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_s\u00e1u": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y"
+            },
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nohIlvlWoEaOg6WX2xv4OoJpuCNIfPhgzbV8Lfzi3dIu9gSnrz4jhphuv5YLZcf_W-R9RZxGMMHaOlmhFDFtzF3WFnB0d1_j8BCe8LJr7XtIUtLoc4-lysHRkinVSig-aryLr70=w122-h92-k-no"
+        },
+        {
+            "position": 19,
+            "place_id": "ChIJHQKqI_erNTERiYkTcLLXC4o",
+            "kgmid": "/g/11h4gw38xv",
+            "data_id": "0x3135abf723aa021d:0x8a0bd7b270138989",
+            "title": "Hanoi Street Foods",
+            "address": "45 P. L\u01b0\u01a1ng Ng\u1ecdc Quy\u1ebfn, H\u00e0ng Bu\u1ed3m, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 3.9,
+            "reviews": 14,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJHQKqI_erNTERiYkTcLLXC4o&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "is_unclaimed_listing": true,
+            "gps_coordinates": {
+                "latitude": 21.034709,
+                "longitude": 105.852089
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "extensions": [
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noFCEQ32bo2QHDETXHSSfhqZhCXmC2C1LYyyim4JSk-We9KCj8oEbnujWutlQQmY52iN8bz79j5qhvRO52haSiBBXz0vHE4jwEDhLpPbGUxLtjnJnet5Bax28f7ATbeZFIIQ9z_GQ=w80-h142-k-no"
+        },
+        {
+            "position": 20,
+            "ludocid": "107221933884047040063",
+            "place_id": "ChIJccun9eurNTERtKVn44HT8Ig",
+            "kgmid": "/g/120rshfm",
+            "data_id": "0x3135abebf5a7cb71:0x88f0d381e367a5b4",
+            "title": "Qu\u1ea3ng tr\u01b0\u1eddng C\u00e1ch m\u1ea1ng Th\u00e1ng T\u00e1m",
+            "address": "Tr\u00e0ng Ti\u1ec1n, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "rating": 4.6,
+            "reviews": 175,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJccun9eurNTERtKVn44HT8Ig&q=Tourist+Attractions&authuser=0&hl=vi&gl=US",
+            "review_text": "\"Ok \u0111\u1eb9p v\u0103n h\u00f3a t\u1eeb th\u1eddi Ph\u00e1p thu\u1ed9c m\u00e0 v\u1eabn r\u1ea5t \u1ea5n t\u01b0\u1ee3ng.\"",
+            "gps_coordinates": {
+                "latitude": 21.0239207,
+                "longitude": 105.8573762
+            },
+            "type": "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch",
+            "types": [
+                "\u0110i\u1ec3m thu h\u00fat kh\u00e1ch du l\u1ecbch"
+            ],
+            "open_state": "M\u01a1\u0309 c\u1eeda",
+            "hours": "M\u1edf c\u1ea3 ng\u00e0y",
+            "open_hours": {
+                "th\u1ee9_b\u1ea3y": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "ch\u1ee7_nh\u1eadt": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_hai": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_ba": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_t\u01b0": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_n\u0103m": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y",
+                "th\u1ee9_s\u00e1u": "M\u1edf c\u1eeda c\u1ea3 ng\u00e0y"
+            },
+            "extensions": [
+                {
+                    "title": "Tr\u1ebb em",
+                    "items": [
+                        {
+                            "title": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em",
+                            "value": "Ph\u00f9 h\u1ee3p cho tr\u1ebb em"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrwrqmSY7CApAdgHRjW-5SN8vDsf8jDwfrVFb422aqTtgn2b_QxOtWM5sU9Z-WB4OkwPOnE8im-Rt6K0QOBLprOAU5xffZVpYob1j-kWuiAo-rxUOsJtKseexGvl7rGHAnEvz84=w163-h92-k-no"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "name": "H\u00e0 N\u1ed9i",
+                "country": "Vi\u1ec7t Nam",
+                "country_code": "vn",
+                "city": "H\u00e0 N\u1ed9i",
+                "postcode": "11018",
+                "district": "Ph\u01b0\u1eddng C\u1eeda Nam",
+                "suburb": "Qu\u1eadn Ho\u00e0n Ki\u1ebfm",
+                "street": "\u0110\u01b0\u1eddng L\u00ea Du\u1ea9n",
+                "housenumber": "120",
+                "iso3166_2": "VN-HN",
+                "lon": 105.8406959,
+                "lat": 21.0242596,
+                "result_type": "amenity",
+                "formatted": "H\u00e0 N\u1ed9i, 120, \u0110\u01b0\u1eddng L\u00ea Du\u1ea9n, Qu\u1eadn Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, 11018, Vi\u1ec7t Nam",
+                "address_line1": "H\u00e0 N\u1ed9i",
+                "address_line2": "120, \u0110\u01b0\u1eddng L\u00ea Du\u1ea9n, Qu\u1eadn Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, 11018, Vi\u1ec7t Nam",
+                "timezone": {
+                    "name": "Asia/Bangkok",
+                    "offset_STD": "+07:00",
+                    "offset_STD_seconds": 25200,
+                    "offset_DST": "+07:00",
+                    "offset_DST_seconds": 25200
+                },
+                "plus_code": "7PH72RFR+P7",
+                "rank": {
+                    "importance": 0.8092314791741042,
+                    "popularity": 4.854033759629823,
+                    "confidence": 0,
+                    "confidence_city_level": 0,
+                    "match_type": "inner_part"
+                },
+                "place_id": "5167182df6cd755a4059329d8ce035063540f00103f901eb2e517702000000c0020192030948c3a0204ee1bb9969"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.8406959,
+                    21.0242596
+                ]
+            },
+            "bbox": [
+                105.8356959,
+                21.0192596,
+                105.8456959,
+                21.0292596
+            ]
+        }
+    ],
+    "query": {
+        "text": "h\u00e0 n\u1ed9i, h\u00e0 n\u1ed9i",
+        "country": "Vi\u1ec7t Nam",
+        "parsed": {
+            "city": "h\u00e0 n\u1ed9i",
+            "state": "h\u00e0 n\u1ed9i",
+            "country": "Vi\u1ec7t Nam",
+            "expected_type": "city"
+        }
+    }
+}

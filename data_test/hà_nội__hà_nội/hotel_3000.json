@@ -1,0 +1,807 @@
+{
+    "search_metadata": {
+        "id": "search_VW19X7MebbAtz1qENe68NbDz",
+        "status": "Success",
+        "created_at": "2025-05-24T09:48:06Z",
+        "request_time_taken": 2.6,
+        "parsing_time_taken": 0.04,
+        "total_time_taken": 2.64,
+        "request_url": "https://www.google.com/maps/search/Hotels/@21.0242596,105.8406959,3000m?hl=vi",
+        "html_url": "https://www.searchapi.io/api/v1/searches/search_VW19X7MebbAtz1qENe68NbDz.html",
+        "json_url": "https://www.searchapi.io/api/v1/searches/search_VW19X7MebbAtz1qENe68NbDz"
+    },
+    "search_parameters": {
+        "engine": "google_maps",
+        "q": "Hotels",
+        "ll": "@21.0242596,105.8406959,3000m",
+        "google_domain": "google.com",
+        "hl": "vi"
+    },
+    "search_information": {
+        "query_displayed": "Hotels",
+        "state": "Showing results for original spelling."
+    },
+    "local_results": [
+        {
+            "position": 1,
+            "ludocid": "112750305772739082750",
+            "place_id": "ChIJgZwVyZerNTERM_WVqGakOiI",
+            "kgmid": "/g/11fkt9mn4q",
+            "data_id": "0x3135ab97c9159c81:0x223aa466a895f533",
+            "title": "The Oriental Jade Hotel",
+            "description": "Kh\u00e1ch s\u1ea1n trang nh\u00e3 c\u00f3 nh\u00e0 h\u00e0ng v\u00e0 spa. Kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 ph\u00f2ng \u1edf b\u00ecnh d\u00e2n, nh\u00e0 h\u00e0ng, b\u1ec3 b\u01a1i t\u1ea7ng th\u01b0\u1ee3ng v\u00e0 spa.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n trang nh\u00e3 n\u00e0y n\u1eb1m gi\u1eefa c\u00e1c nh\u00e0 h\u00e0ng trong khu Ph\u1ed1 C\u1ed5 v\u00e0 c\u00e1ch H\u1ed3 Ho\u00e0n Ki\u1ebfm 2\u00a0ph\u00fat \u0111i b\u1ed9. C\u00e1ch Ga Long Bi\u00ean 2\u00a0km v\u00e0 L\u0103ng Ch\u1ee7 t\u1ecbch H\u1ed3 Ch\u00ed Minh, l\u0103ng m\u1ed9 c\u1ee7a v\u1ecb l\u00e3nh t\u1ee5 n\u01b0\u1edbc Vi\u1ec7t Nam, 3\u00a0km.",
+                "Ph\u00f2ng \u1edf tho\u1ea3i m\u00e1i, c\u00f3 Wi-Fi, TV m\u00e0n h\u00ecnh ph\u1eb3ng, k\u00e9t an to\u00e0n, t\u1ee7 l\u1ea1nh nh\u1ecf c\u00f9ng d\u1ee5ng c\u1ee5 pha tr\u00e0 v\u00e0 c\u00e0 ph\u00ea. Ph\u00f2ng cao c\u1ea5p nh\u00ecn ra th\u00e0nh ph\u1ed1. Ph\u00f2ng suite c\u00f3 ph\u00f2ng kh\u00e1ch ri\u00eang. Ph\u00f2ng suite cao c\u1ea5p c\u00f3 ban c\u00f4ng, m\u1ed9t s\u1ed1 ph\u00f2ng nh\u00ecn ra h\u1ed3. Kh\u00e1ch s\u1ea1n ph\u1ee5c v\u1ee5 \u0103n u\u1ed1ng t\u1ea1i ph\u00f2ng.",
+                "N\u01a1i \u0111\u00e2y c\u00f3 b\u1ec3 b\u01a1i t\u1ea7ng th\u01b0\u1ee3ng, ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c v\u00e0 qu\u1ea7y bar nh\u00ecn ra th\u00e0nh ph\u1ed1. C\u00e1c ti\u1ec7n nghi kh\u00e1c bao g\u1ed3m nh\u00e0 h\u00e0ng, qu\u00e1n c\u00e0 ph\u00ea v\u00e0 spa. Kh\u00e1ch s\u1ea1n ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng v\u00e0 t\u1ed5 ch\u1ee9c d\u1ecbch v\u1ee5 tham quan trong khu v\u1ef1c."
+            ],
+            "address": "92-94 P. H\u00e0ng Tr\u1ed1ng, H\u00e0ng Tr\u1ed1ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "phone": "024 3936 7777",
+            "price": "87\u00a0US$",
+            "hotel_stars": "5 sao",
+            "rating": 4.8,
+            "reviews": 1492,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJgZwVyZerNTERM_WVqGakOiI&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://theorientaljadehotel.com/",
+            "domain": "theorientaljadehotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0296357,
+                "longitude": 105.8501373
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHvw4qu6S_oyXfMA-qNv52hA2Jd0dmxcgexY7lb53uDtuaYg6thHPuk_x63ywUt7SJ_ETE-TDntrgBUThWxC-wy3LWUekUacirZX4m175iSLjpZijeKm4IFiL2I2-zuuFpwQUsWyTHgT3yY7jpVge8hoDn1v50fOa92dItZePciyJIW6aZghxO5=w155-h92-k-no"
+        },
+        {
+            "position": 2,
+            "ludocid": "117683220348536435589",
+            "place_id": "ChIJVQa1tWCrNTERp1ZgsDNLVPA",
+            "kgmid": "/g/11fp8vn1_v",
+            "data_id": "0x3135ab60b5b50655:0xf0544b33b06056a7",
+            "title": "Peridot Grand Luxury Boutique Hotel",
+            "description": "Kh\u00e1ch s\u1ea1n cao c\u1ea5p c\u00f3 h\u1ed3 b\u01a1i v\u00e0 qu\u1ea7y bar tr\u00ean s\u00e2n th\u01b0\u1ee3ng. Ph\u00f2ng ngh\u1ec9 v\u00e0 ph\u00f2ng suite sang tr\u1ecdng trong kh\u00e1ch s\u1ea1n cao c\u1ea5p c\u00f3 h\u1ed3 b\u01a1i v\u00f4 c\u1ef1c tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng v\u00e0 qu\u1ea7y bar cocktail.",
+            "features": [
+                "N\u1eb1m \u1edf Ph\u1ed1 C\u1ed5 H\u00e0 N\u1ed9i, kh\u00e1ch s\u1ea1n cao c\u1ea5p n\u00e0y c\u00e1ch H\u1ed3 Ho\u00e0n Ki\u1ebfm v\u00e0 L\u0103ng Ch\u1ee7 t\u1ecbch H\u1ed3 Ch\u00ed Minh 2 km v\u00e0 c\u00e1ch S\u00e2n bay Qu\u1ed1c t\u1ebf N\u1ed9i B\u00e0i 25 km.",
+                "Ph\u00f2ng ngh\u1ec9 tinh t\u1ebf c\u00f3 Wi-Fi, TV th\u00f4ng minh v\u00e0 k\u00e9t an to\u00e0n, c\u00f9ng minibar v\u00e0 ti\u1ec7n nghi pha tr\u00e0 v\u00e0 c\u00e0 ph\u00ea. Ph\u00f2ng cao c\u1ea5p c\u00f3 th\u00eam t\u1ea7m nh\u00ecn ra th\u00e0nh ph\u1ed1. Ph\u00f2ng suite c\u00f3 b\u1ed3n t\u1eafm \u0111\u1ee9ng ri\u00eang, ph\u00f2ng suite cao c\u1ea5p c\u00f3 ban c\u00f4ng v\u00e0 ph\u00f2ng kh\u00e1ch ri\u00eang. D\u1ecbch v\u1ee5 ph\u00f2ng ph\u1ee5c v\u1ee5 24/7.",
+                "Ti\u1ec7n nghi bao g\u1ed3m 2 nh\u00e0 h\u00e0ng sang tr\u1ecdng v\u00e0 qu\u1ea7y bar \u1edf s\u1ea3nh thanh l\u1ecbch, c\u0169ng nh\u01b0 spa v\u00e0 ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c. T\u1ea7ng th\u01b0\u1ee3ng c\u00f3 qu\u1ea7y bar cocktail h\u1ee3p th\u1eddi trang, s\u00e2n hi\u00ean v\u00e0 nh\u1ea1c s\u1ed1ng th\u01b0\u1eddng xuy\u00ean, c\u00f9ng v\u1edbi h\u1ed3 b\u01a1i v\u00f4 c\u1ef1c nh\u00ecn ra th\u00e0nh ph\u1ed1."
+            ],
+            "address": "33 Duong Thanh Street, Old Quarter Hanoi City Hanoi City, 33 P. \u0110\u01b0\u1eddng Th\u00e0nh, C\u1eeda \u0110\u00f4ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3828 0099",
+            "price": "90\u00a0US$",
+            "hotel_stars": "5 sao",
+            "rating": 4.8,
+            "reviews": 1099,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJVQa1tWCrNTERp1ZgsDNLVPA&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://peridotgrandhotel.com/",
+            "domain": "peridotgrandhotel.com",
+            "gps_coordinates": {
+                "latitude": 21.033082,
+                "longitude": 105.846272
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPfaR1iyd5QZJY4yqWGV170HMXk6rMzUrOgM_v1=w138-h92-k-no"
+        },
+        {
+            "position": 3,
+            "ludocid": "116344578205298078269",
+            "place_id": "ChIJsR8BPsCrNTERj3_eOHJPYwA",
+            "kgmid": "/g/11h7g4rwgw",
+            "data_id": "0x3135abc03e011fb1:0x634f7238de7f8f",
+            "title": "La Sinfon\u00eda del Rey Hotel & Spa",
+            "description": "Kh\u00e1ch s\u1ea1n cao c\u1ea5p c\u00f3 spa v\u00e0 qu\u1ea7y bar tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng. Kh\u00e1ch s\u1ea1n cao c\u1ea5p c\u00f3 ph\u00f2ng \u1ed1c sang tr\u1ecdng, nh\u00e0 h\u00e0ng, qu\u1ea7y bar cocktail tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng v\u00e0 spa.",
+            "features": [
+                "V\u1edbi t\u1ea7m nh\u00ecn ra H\u1ed3 Ho\u00e0n Ki\u1ebfm, kh\u00e1ch s\u1ea1n cao c\u1ea5p n\u00e0y n\u1eb1m trong t\u00f2a nh\u00e0 trang nh\u00e3, c\u00e1ch Ph\u1ed1 C\u1ed5 H\u00e0 N\u1ed9i 7 ph\u00fat \u0111i b\u1ed9 v\u00e0 c\u00e1ch ga Long Bi\u00ean 15 ph\u00fat \u0111i b\u1ed9.",
+                "Ph\u00f2ng \u0111\u01b0\u1ee3c trang tr\u00ed \u0111\u1eb9p m\u1eaft, m\u1ed9t s\u1ed1 ph\u00f2ng c\u00f3 c\u1eeda s\u1ed5, cung c\u1ea5p TV, m\u00e1y pha c\u00e0 ph\u00ea v\u00e0 \u1ea5m \u0111un n\u01b0\u1edbc, ngo\u00e0i ra c\u00f2n c\u00f3 t\u1ee7 l\u1ea1nh nh\u1ecf, k\u00e9t an to\u00e0n v\u00e0 Wi-Fi. C\u00e1c ph\u00f2ng suite c\u00f3 th\u00eam ban c\u00f4ng, m\u1ed9t s\u1ed1 ph\u00f2ng nh\u00ecn ra h\u1ed3. C\u00f3 d\u1ecbch v\u1ee5 ph\u00f2ng.",
+                "Ti\u1ec7n nghi bao g\u1ed3m nh\u00e0 h\u00e0ng sang tr\u1ecdng, qu\u1ea7y bar cocktail tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng v\u00e0 ph\u00f2ng ch\u1edd ph\u1ee5c v\u1ee5 tr\u00e0 chi\u1ec1u, c\u0169ng nh\u01b0 spa. B\u1eefa s\u00e1ng t\u1ef1 ch\u1ecdn c\u0169ng c\u00f3 s\u1eb5n."
+            ],
+            "address": "33-35 P. H\u00e0ng D\u1ea7u, L\u00fd Th\u00e1i T\u1ed5, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 10000, Vi\u1ec7t Nam",
+            "phone": "0968 472 388",
+            "price": "73\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.8,
+            "reviews": 762,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJsR8BPsCrNTERj3_eOHJPYwA&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://www.lasinfoniadelreyhotel.com/",
+            "domain": "lasinfoniadelreyhotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0311164,
+                "longitude": 105.8540457
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhHjCqzO6ZvH8OOBUEX9ESenA7FCczYBYGnq1zaNT7UopqyLr8-l_nX2BP6p9HiqbdRtGTjJuVEzgR4kazrwvUqwClTKzmDhK04v6sJFkMg_hJkPZZ7rCoPLzhBscnlVmc-Nezf2E7JmXiTHn1KaJgFxd-2xEHmCw-cIxUgSZxWiCovzobPtd4PI=w138-h92-k-no"
+        },
+        {
+            "position": 4,
+            "ludocid": "106599946379111965622",
+            "place_id": "ChIJA4AdhWWrNTERO7HYgoGwMrQ",
+            "kgmid": "/g/11h2hln6s9",
+            "data_id": "0x3135ab65851d8003:0xb432b08182d8b13b",
+            "title": "Soleil Boutique Hotel",
+            "description": "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 nh\u00e0 h\u00e0ng v\u00e0 h\u1ed3 b\u01a1i tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng. Kh\u00e1ch s\u1ea1n cao c\u1ea5p c\u00f3 spa, ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c, nh\u00e0 h\u00e0ng, c\u00f9ng s\u00e2n th\u01b0\u1ee3ng c\u00f3 h\u1ed3 b\u01a1i v\u00e0 qu\u1ea7y bar cocktail.",
+            "features": [
+                "N\u1eb1m trong m\u1ed9t khu v\u1ef1c s\u00f4i \u0111\u1ed9ng v\u1edbi nhi\u1ec1u c\u1eeda h\u00e0ng v\u00e0 qu\u00e1n \u0103n c\u1ed5 k\u00ednh, kh\u00e1ch s\u1ea1n sang tr\u1ecdng n\u00e0y c\u00e1ch Ho\u00e0ng th\u00e0nh Th\u0103ng Long 12 ph\u00fat \u0111i b\u1ed9 v\u00e0 c\u00e1ch L\u0103ng Ch\u1ee7 t\u1ecbch H\u1ed3 Ch\u00ed Minh 18 ph\u00fat \u0111i b\u1ed9. S\u00e2n bay qu\u1ed1c t\u1ebf N\u1ed9i B\u00e0i c\u00e1ch \u0111\u00f3 25 km.",
+                "C\u00e1c ph\u00f2ng v\u00e0 suite tinh t\u1ebf c\u00f3 ph\u00f2ng t\u1eafm l\u00e1t \u0111\u00e1 c\u1ea9m th\u1ea1ch, \u1ea5m \u0111un n\u01b0\u1edbc v\u00e0 minibar, c\u0169ng nh\u01b0 Wi-Fi v\u00e0 TV. M\u1ed9t s\u1ed1 ph\u00f2ng c\u00f3 ban c\u00f4ng, b\u1ed3n t\u1eafm ng\u00e2m v\u00e0/ho\u1eb7c khu v\u1ef1c ng\u1ed3i.",
+                "Ti\u1ec7n nghi bao g\u1ed3m spa, ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c v\u00e0 nh\u00e0 h\u00e0ng. S\u00e2n th\u01b0\u1ee3ng c\u00f3 t\u1ea7m nh\u00ecn ra th\u00e0nh ph\u1ed1, h\u1ed3 b\u01a1i v\u00e0 qu\u1ea7y bar cocktail. D\u1ecbch v\u1ee5 \u0111\u01b0a \u0111\u00f3n s\u00e2n bay v\u00e0 b\u1eefa s\u00e1ng c\u0169ng c\u00f3 s\u1eb5n."
+            ],
+            "address": "211 P. H\u00e0ng B\u00f4ng, H\u00e0ng B\u00f4ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3719 1555",
+            "price": "50\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.8,
+            "reviews": 926,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJA4AdhWWrNTERO7HYgoGwMrQ&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "http://www.soleilboutiquehotel.com/",
+            "domain": "soleilboutiquehotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0287952,
+                "longitude": 105.8444792
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP_MojdIzNbOYXYnIL0cC9dT6P2U351Ds7ufakZ=w138-h92-k-no"
+        },
+        {
+            "position": 5,
+            "ludocid": "114855531277451762347",
+            "place_id": "ChIJCbw7mGCrNTERzEp-RtLuyKc",
+            "kgmid": "/g/11sv_w_gp0",
+            "data_id": "0x3135ab60983bbc09:0xa7c8eed2467e4acc",
+            "title": "Kh\u00e1ch s\u1ea1n L'Signature",
+            "address": "4A-4B Ng. B\u00e1o Kh\u00e1nh, H\u00e0ng Tr\u1ed1ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 10000, Vi\u1ec7t Nam",
+            "phone": "0977 353 712",
+            "price": "68\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.9,
+            "reviews": 537,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJCbw7mGCrNTERzEp-RtLuyKc&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://www.lsignaturehotel.com/",
+            "domain": "lsignaturehotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0306711,
+                "longitude": 105.8502024
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMCLUmguYd_SZBYwBOzpX8xSwEPRnr96_7wIuH6=w122-h92-k-no"
+        },
+        {
+            "position": 6,
+            "ludocid": "103947889235001993334",
+            "place_id": "ChIJyR5Cn7-rNTERBr06RJWz0m0",
+            "kgmid": "/g/11b6gddv37",
+            "data_id": "0x3135abbf9f421ec9:0x6dd2b395443abd06",
+            "title": "Oriental Suites Hotel",
+            "description": "Kh\u00e1ch s\u1ea1n cao c\u1ea5p c\u00f3 nh\u00e0 h\u00e0ng v\u00e0 khu spa. KS sang tr\u1ecdng ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed, c\u00f3 ph\u00f2ng \u1ed1c hi\u1ec7n \u0111\u1ea1i c\u00f9ng nh\u00e0 h\u00e0ng, qu\u1ea7y bar v\u00e0 spa.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n cao c\u1ea5p n\u00e0y n\u1eb1m trong khu Ph\u1ed1 C\u1ed5 nh\u1ed9n nh\u1ecbp, c\u00e1ch h\u1ed3 Ho\u00e0n Ki\u1ebfm 2\u00a0ph\u00fat \u0111i b\u1ed9, c\u00e1ch Nh\u00e0 Th\u1edd L\u1edbn H\u00e0 N\u1ed9i 8\u00a0ph\u00fat \u0111i b\u1ed9 v\u00e0 L\u0103ng Ch\u1ee7 t\u1ecbch H\u1ed3 Ch\u00ed Minh 3\u00a0km.",
+                "Ph\u00f2ng \u1ed1c hi\u1ec7n \u0111\u1ea1i c\u00f3 Wi-Fi mi\u1ec5n ph\u00ed, truy\u1ec1n h\u00ecnh v\u1ec7 tinh, t\u1ee7 l\u1ea1nh nh\u1ecf, k\u00e9t an to\u00e0n, d\u1ee5ng c\u1ee5 pha tr\u00e0 v\u00e0 c\u00e0 ph\u00ea. M\u1ed9t s\u1ed1 ph\u00f2ng c\u00f3 th\u00eam ban c\u00f4ng. Tr\u1ebb em t\u1eeb 5 tu\u1ed5i tr\u1edf xu\u1ed1ng \u0111\u01b0\u1ee3c \u1edf mi\u1ec5n ph\u00ed c\u00f9ng ng\u01b0\u1eddi l\u1edbn. Ph\u1ee5c v\u1ee5 \u0103n u\u1ed1ng t\u1ea1i ph\u00f2ng.",
+                "Ph\u00f2ng \u0103n b\u00ecnh d\u00e2n, ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed. C\u00f3 c\u1ea3 nh\u00e0 h\u00e0ng b\u00ecnh d\u00e2n, qu\u1ea7y bar/ph\u00f2ng ch\u1edd, qu\u00e1n c\u00e0 ph\u00ea v\u00e0 khu spa."
+            ],
+            "address": "58 P. H\u00e0ng \u0110\u00e0o, Str, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 111000, Vi\u1ec7t Nam",
+            "phone": "024 3928 6666",
+            "price": "34\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.5,
+            "reviews": 567,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJyR5Cn7-rNTERBr06RJWz0m0&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "http://www.orientalsuiteshotel.com/",
+            "domain": "orientalsuiteshotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0332873,
+                "longitude": 105.850964
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "Spa",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "B\u1eefa s\u00e1ng"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPCgokatKy0mtUvVahU-gk-dEYL0cvkdUDuq4Sh=w137-h92-k-no"
+        },
+        {
+            "position": 7,
+            "ludocid": "110910217008272465940",
+            "place_id": "ChIJORcGYcCrNTER9pKMHVN7CdE",
+            "kgmid": "/g/1tdw0yw9",
+            "data_id": "0x3135abc061061739:0xd1097b531d8c92f6",
+            "title": "May De Ville Lakeside Hotel",
+            "description": "KS cao c\u1ea5p c\u00f3 qu\u1ea7y bar \u1edf t\u1ea7ng th\u01b0\u1ee3ng. Kh\u00e1ch s\u1ea1n cao c\u1ea5p trong khu trung t\u00e2m, mi\u1ec5n ph\u00ed b\u1eefa s\u00e1ng, b\u1ec3 b\u01a1i, nh\u00e0 h\u00e0ng, bar t\u1ea7ng th\u01b0\u1ee3ng & ph\u00f2ng t\u1eadp.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n cao c\u1ea5p n\u00e0y n\u1eb1m trong t\u00f2a nh\u00e0 hi\u1ec7n \u0111\u1ea1i, \u0111\u1eb9p m\u1eaft \u1edf khu Ph\u1ed1 c\u1ed5 H\u00e0 N\u1ed9i s\u00f4i \u0111\u1ed9ng, c\u00e1ch H\u1ed3 Ho\u00e0n Ki\u1ebfm 12\u00a0ph\u00fat \u0111i b\u1ed9 v\u00e0 c\u00e1ch L\u0103ng Ch\u1ee7 t\u1ecbch H\u1ed3 Ch\u00ed Minh 3\u00a0km.",
+                "Ph\u00f2ng \u1ed1c sang tr\u1ecdng c\u00f3 s\u00e0n g\u1ed7 v\u00e0 Wi-Fi mi\u1ec5n ph\u00ed, TV m\u00e0n h\u00ecnh ph\u1eb3ng v\u00e0 t\u1ee7 l\u1ea1nh nh\u1ecf. M\u1ed9t s\u1ed1 ph\u00f2ng c\u00f2n c\u00f3 t\u1ea7m nh\u00ecn h\u01b0\u1edbng ra h\u1ed3 ho\u1eb7c th\u00e0nh ph\u1ed1, c\u00f2n c\u00e1c c\u0103n suite thi\u1ebft k\u1ebf tinh t\u1ebf c\u00f3 khu v\u1ef1c ti\u1ebfp kh\u00e1ch, b\u1ed3n t\u1eafm n\u01b0\u1edbc n\u00f3ng v\u00e0 ban c\u00f4ng.",
+                "Ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed. C\u00e1c ti\u1ec7n nghi kh\u00e1c g\u1ed3m c\u00f3 nh\u00e0 h\u00e0ng ph\u1ee5c v\u1ee5 c\u00e1c m\u00f3n \u00c1 \u2013 \u00c2u, qu\u1ea7y bar \u1edf t\u1ea7ng th\u01b0\u1ee3ng c\u00f3 t\u1ea7m nh\u00ecn h\u01b0\u1edbng ra th\u00e0nh ph\u1ed1, b\u1ec3 b\u01a1i, ph\u00f2ng x\u00f4ng h\u01a1i, b\u1ec3 s\u1ee5c Jacuzzi v\u00e0 ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c c\u00f3 t\u1ea7m nh\u00ecn h\u01b0\u1edbng ra th\u00e0nh ph\u1ed1."
+            ],
+            "address": "43 P. Gia Ng\u01b0, H\u00e0ng B\u1ea1c, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3933 5688",
+            "price": "63\u00a0US$",
+            "hotel_stars": "5 sao",
+            "rating": 4.6,
+            "reviews": 2013,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJORcGYcCrNTER9pKMHVN7CdE&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://maydevillelakesidehotel.com/",
+            "domain": "maydevillelakesidehotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0329965,
+                "longitude": 105.8521542
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n",
+                "Qu\u00e1n bar",
+                "C\u00e2u l\u1ea1c b\u1ed9 th\u1ec3 d\u1ee5c",
+                "D\u1ecbch v\u1ee5 gi\u1eb7t \u1ee7i",
+                "Nh\u00e0 h\u00e0ng",
+                "\u0110\u1ea1i l\u00fd du l\u1ecbch tham quan",
+                "Spa",
+                "B\u1ec3 b\u01a1i"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed"
+            ],
+            "extensions": [
+                {
+                    "title": "Kh\u00e1ch h\u00e0ng",
+                    "items": [
+                        {
+                            "title": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+",
+                            "value": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPWwOmu3IQ00i5GlZ2Oa2P_iMYkCKJFrA2a44SN=w137-h92-k-no"
+        },
+        {
+            "position": 8,
+            "ludocid": "105210474620833028719",
+            "place_id": "ChIJBXy4sa6rNTERDF1sCVavi98",
+            "kgmid": "/g/11hf944wr0",
+            "data_id": "0x3135abaeb1b87c05:0xdf8baf56096c5d0c",
+            "title": "La Siesta Premium Hang Be Hotel",
+            "description": "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng v\u1edbi nh\u00e0 h\u00e0ng v\u00e0 t\u1ea7m nh\u00ecn ra h\u1ed3. Ph\u00f2ng ngh\u1ec9 v\u00e0 suite sang tr\u1ecdng trong kh\u00e1ch s\u1ea1n cao c\u1ea5p c\u00f3 nh\u00e0 h\u00e0ng, spa v\u00e0 qu\u1ea7y bar tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng nh\u00ecn ra h\u1ed3.",
+            "features": [
+                "N\u1eb1m \u1edf Khu Ph\u1ed1 C\u1ed5, kh\u00e1ch s\u1ea1n sang tr\u1ecdng n\u00e0y c\u00e1ch H\u1ed3 Ho\u00e0n Ki\u1ebfm 5 ph\u00fat \u0111i b\u1ed9, c\u00e1ch Ga Long Bi\u00ean 1 km v\u00e0 c\u00e1ch L\u0103ng Ch\u1ee7 t\u1ecbch H\u1ed3 Ch\u00ed Minh 4 km.",
+                "C\u00e1c ph\u00f2ng ngh\u1ec9 tinh t\u1ebf kh\u00f4ng c\u00f3 c\u1eeda s\u1ed5 c\u00f3 Wi-Fi, TV v\u00e0 k\u00e9t an to\u00e0n, c\u00f9ng v\u1edbi minibar v\u00e0 ti\u1ec7n nghi pha tr\u00e0 v\u00e0 c\u00e0 ph\u00ea. C\u00e1c ph\u00f2ng \u0111\u01b0\u1ee3c n\u00e2ng c\u1ea5p c\u00f3 th\u00eam ban c\u00f4ng ki\u1ec3u Ph\u00e1p nh\u00ecn ra Ph\u1ed1 C\u1ed5. C\u00e1c suite c\u00f3 khu v\u1ef1c ti\u1ebfp kh\u00e1ch v\u00e0/ho\u1eb7c ph\u00f2ng ng\u1ee7 g\u00e1c x\u00e9p, v\u00e0 suite \u00e1p m\u00e1i c\u00f3 ban c\u00f4ng \u0111\u01b0\u1ee3c trang b\u1ecb \u0111\u1ed3 \u0111\u1ea1c v\u00e0 d\u1ecbch v\u1ee5 qu\u1ea3n gia.",
+                "Ti\u1ec7n nghi bao g\u1ed3m m\u1ed9t nh\u00e0 h\u00e0ng sang tr\u1ecdng v\u1edbi phong c\u00e1ch ho\u00e0i c\u1ed5, c\u0169ng nh\u01b0 m\u1ed9t qu\u00e1n bar tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng c\u00f3 s\u00e2n hi\u00ean, t\u1ea7m nh\u00ecn ra h\u1ed3 v\u00e0 nh\u1ea1c s\u1ed1ng th\u01b0\u1eddng xuy\u00ean. Ngo\u00e0i ra c\u00f2n c\u00f3 m\u1ed9t spa thanh l\u1ecbch. B\u1eefa s\u00e1ng \u0111\u01b0\u1ee3c ph\u1ee5c v\u1ee5."
+            ],
+            "address": "No. 27A P. H\u00e0ng B\u00e8, Ph\u1ed1 c\u1ed5 H\u00e0 N\u1ed9i, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 10000, Vi\u1ec7t Nam",
+            "phone": "024 3929 0011",
+            "price": "83\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.9,
+            "reviews": 564,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJBXy4sa6rNTERDF1sCVavi98&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://lasiestahotels.vn/hangbe/",
+            "domain": "lasiestahotels.vn",
+            "gps_coordinates": {
+                "latitude": 21.0331202,
+                "longitude": 105.8540981
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEiWG6tHuHWUp9AE5mxcliaJgX8zhyJwl6-KHg8TYDhO0_yLJ4Jm79UOf3vOB3rgXJAbgJxjlY0clDJ7zd3cnm49_uJyhTSlHq1xWwTpk4oLghCrTULR5mlzdRgVpMQjaLHrVI8leP-P4Lr41bUpe0dNm_cNCzzAdq7aQTPu1KQZ2kImz8W8oCP9Q=w138-h92-k-no"
+        },
+        {
+            "position": 9,
+            "ludocid": "112674698604901549121",
+            "place_id": "ChIJ4xhraMCrNTERRNyiI3eRrdM",
+            "kgmid": "/g/11j4lyh5kg",
+            "data_id": "0x3135abc0686b18e3:0xd3ad917723a2dc44",
+            "title": "Aurora Premium Hotel & Spa",
+            "description": "Kh\u00e1ch s\u1ea1n trang nh\u00e3 c\u00f3 nh\u00e0 h\u00e0ng v\u00e0 c\u1ea3nh h\u1ed3. Kh\u00e1ch s\u1ea1n tinh t\u1ebf c\u00f3 nh\u00e0 h\u00e0ng, khu spa v\u00e0 ph\u00f2ng \u1ed1c sang tr\u1ecdng. M\u1ed9t s\u1ed1 ph\u00f2ng nh\u00ecn ra h\u1ed3.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng n\u00e0y n\u1eb1m tr\u00ean m\u1ed9t con ph\u1ed1 nh\u1ed9n nh\u1ecbp t\u1eadp trung nhi\u1ec1u c\u1eeda h\u00e0ng v\u00e0 qu\u00e1n \u0103n, c\u00e1ch \u0110\u1ec1n Ng\u1ecdc S\u01a1n v\u00e0 H\u1ed3 Ho\u00e0n Ki\u1ebfm 3 ph\u00fat \u0111i b\u1ed9, c\u00e1ch ga Long Bi\u00ean 14 ph\u00fat \u0111i b\u1ed9.",
+                "Ph\u00f2ng \u1edf sang tr\u1ecdng \u0111\u01b0\u1ee3c b\u00e0i tr\u00ed \u1ea5m c\u00fang, c\u00f3 Wi-Fi, TV, k\u00e9t an to\u00e0n, t\u1ee7 l\u1ea1nh nh\u1ecf v\u00e0 \u1ea5m \u0111un n\u01b0\u1edbc. Ph\u00f2ng cao c\u1ea5p v\u00e0 ph\u00f2ng suite c\u00f3 th\u00eam ban c\u00f4ng, khu v\u1ef1c gh\u1ebf ng\u1ed3i v\u00e0/ho\u1eb7c nh\u00ecn ra h\u1ed3.",
+                "Nh\u00e0 h\u00e0ng cao c\u1ea5p c\u00f3 c\u1eeda s\u1ed5 ch\u1ea1m tr\u1ea7n v\u00e0 t\u1ea7m nh\u00ecn ra h\u1ed3. C\u00e1c ti\u1ec7n nghi kh\u00e1c bao g\u1ed3m qu\u1ea7y cocktail tinh t\u1ebf tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng c\u00f3 s\u00e2n hi\u00ean v\u00e0 khu spa. Kh\u00e1ch s\u1ea1n ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng."
+            ],
+            "address": "61 P. H\u00e0ng B\u00e8, Str, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3936 2345",
+            "price": "38\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.7,
+            "reviews": 604,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ4xhraMCrNTERRNyiI3eRrdM&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://aurorahotels.vn/",
+            "domain": "aurorahotels.vn",
+            "gps_coordinates": {
+                "latitude": 21.0324187,
+                "longitude": 105.8538952
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n",
+                "Qu\u00e1n bar",
+                "Nh\u00e0 h\u00e0ng",
+                "Spa"
+            ],
+            "amenities": [
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhErwgQjJDBT5SHSlXSuerXaFDbpT7DwP-6GZ9cAtgnG4U6PANYo3_LtqEuhtWkCakwK8E0ktRpiQaFPiZTyvWQLCB-A7JhmuzNcDuje_r7WkdKvAbDHTn6A1CAmFqSCx3L4yN7OzdPfiQpFA4AiPl-v3JL3EdAon6DZ45_PA4iY5cWkdOODhzCk_w=w138-h92-k-no"
+        },
+        {
+            "position": 10,
+            "ludocid": "115892077098235878112",
+            "place_id": "ChIJKWOTdsCrNTERR4CH2_cymJc",
+            "kgmid": "/g/11sszkszfx",
+            "data_id": "0x3135abc076936329:0x979832f7db878047",
+            "title": "SILK CASTLE HOTEL & SPA",
+            "address": "52A P. C\u1ea7u G\u1ed7, H\u00e0ng B\u1ea1c, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3201 4699",
+            "price": "20\u00a0US$",
+            "hotel_stars": "5 sao",
+            "rating": 4.3,
+            "reviews": 274,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJKWOTdsCrNTERR4CH2_cymJc&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "http://silkcastlehotel.com/",
+            "domain": "silkcastlehotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0323068,
+                "longitude": 105.852846
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFLqDti_3aq8yJPRVF3gnHJD5MJ0XW-hUNunfYMNb0U-bBWV7yoWKlYBcgVPNwJSa3BvDXlBtrkAnbNoP2ghsv5z4EP0vQkVi7u0rHFuRfUEiOfxQT2VQI9vltXZc0Q0TMSOJNDTDquzob7nSupEFWOn5CekkaE9GMiEkr4zI-4FfMIj4UNT-w=w138-h92-k-no"
+        },
+        {
+            "position": 11,
+            "ludocid": "100452702097540402001",
+            "place_id": "ChIJXTEus5SrNTERANcALct6eyI",
+            "kgmid": "/g/11cjhh_wj6",
+            "data_id": "0x3135ab94b32e315d:0x227b7acb2d00d700",
+            "title": "Silk Path Hotel Hanoi",
+            "description": "KS sang c\u00f3 nh\u00e0 h\u00e0ng cao c\u1ea5p v\u00e0 3 bar.. Kh\u00e1ch s\u1ea1n h\u1ea1ng sang c\u00f3 ph\u00f2ng \u1ed1c sang tr\u1ecdng, 3 qu\u00e1n bar, nh\u00e0 h\u00e0ng \u0110\u1ecba Trung H\u1ea3i v\u00e0 trung t\u00e2m th\u1ec3 d\u1ee5c.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n cao c\u1ea5p n\u00e0y n\u1eb1m trong khu Ph\u1ed1 c\u1ed5 H\u00e0 N\u1ed9i, c\u00e1ch ga H\u00e0 N\u1ed9i 11\u00a0ph\u00fat \u0111i b\u1ed9, c\u00e1ch \u0110\u1ec1n Ng\u1ecdc S\u01a1n 2\u00a0km - ng\u00f4i \u0111\u1ec1n Kh\u1ed5ng gi\u00e1o tr\u00ean H\u1ed3 Ho\u00e0n Ki\u1ebfm.",
+                "Ph\u00f2ng \u1edf sang tr\u1ecdng trang tr\u00ed v\u1ea3i nhung m\u01b0\u1ee3t m\u00e0 v\u00e0 gi\u1ea5y d\u00e1n t\u01b0\u1eddng in th\u1ee7 c\u00f4ng, c\u00f3 TV m\u00e0n h\u00ecnh ph\u1eb3ng, t\u1ee7 l\u1ea1nh nh\u1ecf v\u00e0 ch\u1ed7 ti\u1ebfp kh\u00e1ch. Ph\u00f2ng h\u1ea1ng cao h\u01a1n c\u00f3 ban c\u00f4ng. Ph\u00f2ng suite 2 ph\u00f2ng ng\u1ee7 c\u00f3 th\u00eam ph\u00f2ng kh\u00e1ch, ph\u00f2ng \u0103n v\u00e0 nh\u00e0 b\u1ebfp, b\u1ed3n s\u1ee5c v\u00e0 ph\u00f2ng x\u00f4ng h\u01a1i. Wi-Fi mi\u1ec5n ph\u00ed. C\u00f3 ph\u1ee5c v\u1ee5 \u0103n u\u1ed1ng t\u1ea1i ph\u00f2ng.",
+                "C\u00f3 ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng. C\u00f3 m\u1ed9t nh\u00e0 h\u00e0ng \u0110\u1ecba Trung H\u1ea3i sang tr\u1ecdng, 3 qu\u00e1n bar (1 qu\u00e1n c\u00f3 s\u00e2n th\u01b0\u1ee3ng, 1 qu\u00e1n c\u00f3 piano) v\u00e0 trung t\u00e2m th\u1ec3 d\u1ee5c."
+            ],
+            "address": "199 P. H\u00e0ng B\u00f4ng, H\u00e0ng B\u00f4ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "phone": "024 3266 5555",
+            "price": "52\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.4,
+            "reviews": 927,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJXTEus5SrNTERANcALct6eyI&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://silkpathhotel.com/",
+            "domain": "silkpathhotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0286525,
+                "longitude": 105.8446979
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "B\u1eefa s\u00e1ng",
+                "Wi-Fi"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhE30Fdu3pOGKIkN6V1Gfao03AWuuScAeg_DcLLX_9KA_GBXfRXdsAjUZyaVOfro59JJ4cjiJVzt6ZyRdOUlWwT_F5rFzj4mI_zr7pDnh-4g74xQKeIo4ivsR2Zt2HckyKrEm3fPEPTMKT1b5HTJPkNLdzwog4wFH-Md8Tmhbm0Vfhgx_sj_OnNhaw=w138-h92-k-no"
+        },
+        {
+            "position": 12,
+            "ludocid": "114363257596572103742",
+            "place_id": "ChIJeTTzfEmrNTER71hoP5NaEKg",
+            "kgmid": "/g/11l1q94gx1",
+            "data_id": "0x3135ab497cf33479:0xa8105a933f6858ef",
+            "title": "GM Premium Hotel Hanoi",
+            "address": "41 P. H\u00e0ng B\u00f4ng, H\u00e0ng Tr\u1ed1ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3831 6868",
+            "price": "53\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 5.0,
+            "reviews": 702,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJeTTzfEmrNTER71hoP5NaEKg&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://gmpremiumhotel.com/",
+            "domain": "gmpremiumhotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0307869,
+                "longitude": 105.8482632
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed"
+            ],
+            "extensions": [
+                {
+                    "title": "Kh\u00e1ch h\u00e0ng",
+                    "items": [
+                        {
+                            "title": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+",
+                            "value": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipP214Mx1ya6LfGJDxfgj9lqkWBd7xwU4n14RFOQ=w138-h92-k-no"
+        },
+        {
+            "position": 13,
+            "ludocid": "109672680145612262169",
+            "place_id": "ChIJeRZ50CCrNTERsDeVP7Kl_2w",
+            "kgmid": "/g/11q2y3t1_c",
+            "data_id": "0x3135ab20d0791679:0x6cffa5b23f9537b0",
+            "title": "SOJO Hotel Ga Hanoi",
+            "address": "131 \u0110. L\u00ea Du\u1ea9n, C\u1eeda Nam, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3223 2929",
+            "price": "40\u00a0US$",
+            "rating": 4.3,
+            "reviews": 423,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJeRZ50CCrNTERsDeVP7Kl_2w&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://sojohotels.com/khach-san/SOJO-Ga-Ha-Noi",
+            "domain": "sojohotels.com",
+            "gps_coordinates": {
+                "latitude": 21.0239462,
+                "longitude": 105.8416218
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "B\u1eefa s\u00e1ng",
+                "Wi-Fi"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMDobaCFw2SiH1jyMrN6jIU3REBqqJ4nRZi5d5p=w137-h92-k-no"
+        },
+        {
+            "position": 14,
+            "ludocid": "109909777245215849873",
+            "place_id": "ChIJEUTAacCrNTER4KeZUHgdWmM",
+            "kgmid": "/g/11stztd6v3",
+            "data_id": "0x3135abc069c04411:0x635a1d785099a7e0",
+            "title": "La Passion Premium Cau Go Hotel",
+            "address": "7 P. C\u1ea7u G\u1ed7, H\u00e0ng B\u1ea1c, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 7301 6168",
+            "price": "66\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.9,
+            "reviews": 181,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJEUTAacCrNTER4KeZUHgdWmM&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://lapassionpremiumhotel.com/",
+            "domain": "lapassionpremiumhotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0321258,
+                "longitude": 105.8535077
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "B\u1eefa s\u00e1ng"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhEpzg5LWUcv71BhZ9L-hU7_VS0ViGW37xEC_Go_k98ldpPUWwlNzy_MGwypcCNioHtxnDbwjhqf74eHkzEpb0UI2lFlTKGJDui7Yu9OPNJMlx4G45LUAlsTlddn9VsheKGJuTBj3HwDYmytaljdcjHkw7GpfbP8YxF1C0gpAqffVAYjdrHCmIc=w138-h92-k-no"
+        },
+        {
+            "position": 15,
+            "ludocid": "106568404984047052635",
+            "place_id": "ChIJh02B9hirNTERAjicr32Drng",
+            "kgmid": "/g/11s3frgcyr",
+            "data_id": "0x3135ab18f6814d87:0x78ae837daf9c3802",
+            "title": "Meritel Hanoi",
+            "description": "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 spa v\u00e0 h\u1ed3 b\u01a1i tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng. Ph\u00f2ng cao c\u1ea5p trong kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 nh\u00e0 h\u00e0ng sang tr\u1ecdng, qu\u1ea7y bar tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng v\u00e0 h\u1ed3 b\u01a1i v\u00f4 c\u1ef1c ngo\u00e0i tr\u1eddi.",
+            "features": [
+                "N\u1eb1m tr\u00ean m\u1ed9t con ph\u1ed1 s\u00f4i \u0111\u1ed9ng v\u1edbi nhi\u1ec1u c\u1eeda h\u00e0ng v\u00e0 khu vui ch\u01a1i v\u1ec1 \u0111\u00eam, kh\u00e1ch s\u1ea1n cao c\u1ea5p n\u00e0y c\u00e1ch H\u1ed3 Ho\u00e0n Ki\u1ebfm 16 ph\u00fat \u0111i b\u1ed9 v\u00e0 c\u00e1ch Ga H\u00e0 N\u1ed9i 12 ph\u00fat \u0111i b\u1ed9.",
+                "C\u00e1c ph\u00f2ng v\u00e0 suite thanh l\u1ecbch \u0111\u01b0\u1ee3c trang b\u1ecb Wi-Fi, k\u00e9t an to\u00e0n v\u00e0 t\u1ee7 l\u1ea1nh nh\u1ecf, c\u0169ng nh\u01b0 TV th\u00f4ng minh, minibar v\u00e0 ti\u1ec7n nghi pha c\u00e0 ph\u00ea. M\u1ed9t s\u1ed1 ph\u00f2ng n\u00e2ng c\u1ea5p c\u00f3 ban c\u00f4ng, s\u00e2n hi\u00ean v\u00e0 t\u1ea7m nh\u00ecn ra Ph\u1ed1 C\u1ed5.",
+                "Ti\u1ec7n nghi bao g\u1ed3m m\u1ed9t nh\u00e0 h\u00e0ng sang tr\u1ecdng v\u00e0 m\u1ed9t qu\u1ea7y bar tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng \u0111\u1ea7y phong c\u00e1ch ph\u1ee5c v\u1ee5 c\u00e1c bu\u1ed5i chi\u1ebfu phim th\u01b0\u1eddng xuy\u00ean, c\u00f9ng v\u1edbi ph\u00f2ng t\u1eadp th\u1ec3 d\u1ee5c, spa v\u00e0 h\u1ed3 b\u01a1i v\u00f4 c\u1ef1c ngo\u00e0i tr\u1eddi tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng v\u1edbi t\u1ea7m nh\u00ecn ra th\u00e0nh ph\u1ed1. C\u00f3 ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng."
+            ],
+            "address": "153 P. H\u00e0ng B\u00f4ng, Ward, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 10000, Vi\u1ec7t Nam",
+            "phone": "024 3719 9222",
+            "price": "66\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 5.0,
+            "reviews": 1663,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJh02B9hirNTERAjicr32Drng&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "http://meritelhanoi.com/",
+            "domain": "meritelhanoi.com",
+            "gps_coordinates": {
+                "latitude": 21.0292275,
+                "longitude": 105.8453327
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n",
+                "Nh\u00e0 h\u00e0ng",
+                "Nh\u00e0 t\u1eafm h\u01a1i",
+                "Ch\u1ed7 \u1edf \u0111\u01b0\u1ee3c ph\u1ee5c v\u1ee5",
+                "Spa"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "extensions": [
+                {
+                    "title": "Kh\u00e1ch h\u00e0ng",
+                    "items": [
+                        {
+                            "title": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+",
+                            "value": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipNFAd7Rttjjf16eWmIMq5q2KEYObLWJ0XCmyNZ2=w155-h92-k-no"
+        },
+        {
+            "position": 16,
+            "ludocid": "105773658688143076954",
+            "place_id": "ChIJl9XTe5WrNTER7hFpYXKAIAA",
+            "kgmid": "/g/1ptwj2pfv",
+            "data_id": "0x3135ab957bd3d597:0x208072616911ee",
+            "title": "Golden Lotus Luxury Hotel Hanoi",
+            "description": "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 spa v\u00e0 b\u1ec3 b\u01a1i. Kh\u00e1ch s\u1ea1n trang nh\u00e3, c\u00f3 nh\u00e0 h\u00e0ng, b\u1eefa s\u00e1ng, spa v\u00e0 b\u1ec3 b\u01a1i t\u1ea7ng th\u01b0\u1ee3ng.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n trang nh\u00e3 n\u00e0y c\u00e1ch h\u1ed3 Ho\u00e0n Ki\u1ebfm 1 km, c\u00e1ch V\u0103n Mi\u1ebfu 3 km v\u00e0 c\u00e1ch B\u1ea3o t\u00e0ng H\u1ed3 Ch\u00ed Minh 4 km.",
+                "Ph\u00f2ng \u1edf trang nh\u00e3, c\u00f3 s\u00e0n g\u1ed7, Wi-Fi, TV m\u00e0n h\u00ecnh ph\u1eb3ng, t\u1ee7 l\u1ea1nh nh\u1ecf c\u00f9ng d\u1ee5ng c\u1ee5 pha tr\u00e0 v\u00e0 c\u00e0 ph\u00ea. Ph\u00f2ng cao c\u1ea5p nh\u00ecn ra th\u00e0nh ph\u1ed1. Ph\u00f2ng suite c\u00f3 th\u00eam khu v\u1ef1c sinh ho\u1ea1t ri\u00eang v\u00e0/ho\u1eb7c ban c\u00f4ng.",
+                "Kh\u00e1ch s\u1ea1n ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng t\u1ef1 ch\u1ecdn. C\u00e1c ti\u1ec7n nghi kh\u00e1c bao g\u1ed3m nh\u00e0 h\u00e0ng/qu\u1ea7y bar v\u00e0 b\u1ec3 b\u01a1i t\u1ea7ng th\u01b0\u1ee3ng nh\u00ecn ra th\u00e0nh ph\u1ed1. T\u1ea1i \u0111\u00e2y c\u00f2n c\u00f3 spa v\u00e0 kh\u00f4ng gian t\u1ed5 ch\u1ee9c s\u1ef1 ki\u1ec7n."
+            ],
+            "address": "53-55 P. H\u00e0ng Tr\u1ed1ng, H\u00e0ng Tr\u1ed1ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3828 5888",
+            "price": "49\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.1,
+            "reviews": 633,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJl9XTe5WrNTER7hFpYXKAIAA&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "http://goldenlotushotel.com.vn/",
+            "domain": "goldenlotushotel.com.vn",
+            "gps_coordinates": {
+                "latitude": 21.0304007,
+                "longitude": 105.8499092
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1ec3 b\u01a1i",
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed"
+            ],
+            "extensions": [
+                {
+                    "title": "Kh\u00e1ch h\u00e0ng",
+                    "items": [
+                        {
+                            "title": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+",
+                            "value": "Ch\u00e0o \u0111\u00f3n nh\u1eefng ng\u01b0\u1eddi thu\u1ed9c gi\u1edbi LGBTQ+"
+                        }
+                    ]
+                }
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipM7LmigKyQmyhdAJWSlH2ABKbyFtrfTvuVAcc8I=w138-h92-k-no"
+        },
+        {
+            "position": 17,
+            "ludocid": "109551486524978884342",
+            "place_id": "ChIJ6wkCZJWrNTER2Dknibuozx8",
+            "kgmid": "/g/11f5ly8ybj",
+            "data_id": "0x3135ab95640209eb:0x1fcfa8bb892739d8",
+            "title": "Hanoi DalVostro Valentino Hotel & Spa",
+            "description": "KS sang tr\u1ecdng c\u00f3 spa v\u00e0 Wi-Fi mi\u1ec5n ph\u00ed. Kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 ph\u00f2ng \u1ed1c tho\u00e1ng m\u00e1t, khu spa v\u00e0 mi\u1ec5n ph\u00ed b\u1eefa s\u00e1ng & Wi-Fi.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng n\u00e0y n\u1eb1m gi\u1eefa khu v\u1ef1c c\u00f3 nhi\u1ec1u qu\u00e1n c\u00e0 ph\u00ea, c\u00e1ch h\u1ed3 Ho\u00e0n Ki\u1ebfm m\u1ed9t\u00a0d\u00e3y nh\u00e0 v\u00e0 c\u00e1ch tr\u1ea1m xe bu\u00fdt g\u1ea7n nh\u1ea5t 3\u00a0ph\u00fat \u0111i b\u1ed9.",
+                "Ph\u00f2ng \u1ed1c b\u00e0i tr\u00ed tinh t\u1ebf, c\u00f3 Wi-Fi mi\u1ec5n ph\u00ed, TV m\u00e0n h\u00ecnh ph\u1eb3ng, m\u00e1y \u0111i\u1ec1u h\u00f2a v\u00e0 ph\u00f2ng t\u1eafm ri\u00eang. Ph\u00f2ng cao c\u1ea5p h\u01a1n c\u00f3 th\u00eam ban c\u00f4ng. Ph\u00f2ng suite c\u00f3 ch\u1ed7 ti\u1ebfp kh\u00e1ch v\u00e0 b\u1ec3 s\u1ee5c.",
+                "Ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng t\u1ef1 ch\u1ecdn mi\u1ec5n ph\u00ed. C\u00e1c ti\u1ec7n nghi kh\u00e1c c\u00f3 khu spa."
+            ],
+            "address": "12 Ng. B\u00e1o Kh\u00e1nh, H\u00e0ng Tr\u1ed1ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3932 0666",
+            "price": "63\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.6,
+            "reviews": 588,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ6wkCZJWrNTER2Dknibuozx8&q=Hotels&authuser=0&hl=vi&gl=US",
+            "gps_coordinates": {
+                "latitude": 21.0307786,
+                "longitude": 105.8501045
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n",
+                "Qu\u00e1n bar cocktail",
+                "Spa ban ng\u00e0y",
+                "Nh\u00e0 h\u00e0ng"
+            ],
+            "amenities": [
+                "Spa",
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipMOdHTb75OUufXn5rdZmGTYjLru1wSYNoKBUAs=w138-h92-k-no"
+        },
+        {
+            "position": 18,
+            "ludocid": "114684224708237113221",
+            "place_id": "ChIJd-ESt6WrNTER3O7zRqKYpZs",
+            "kgmid": "/g/11t3vnw2xl",
+            "data_id": "0x3135aba5b712e177:0x9ba598a246f3eedc",
+            "title": "La Sinfon\u00eda Majesty Hotel and Spa",
+            "address": "01B P. C\u1ea7u G\u1ed7, H\u00e0ng B\u1ea1c, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3715 2345",
+            "price": "59\u00a0US$",
+            "rating": 4.8,
+            "reviews": 244,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJd-ESt6WrNTER3O7zRqKYpZs&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://www.lasinfoniamajestyhotel.com/",
+            "domain": "lasinfoniamajestyhotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0321197,
+                "longitude": 105.8536894
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "B\u1eefa s\u00e1ng"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFV1rI7f9S-K_Ym0yoQw-m6y5C48YeiX23_UoZCsxb0JL-mQiPRZKqUU10_o9VCdd5frDPTt571ZiGoFyP3pMjS6ah87VD4VMmwSg5RiHzJ0TOpPoV7UyevBSMzjP7tA6I3GOznbzmZB33D6hkHdlLFaxLn9-sB0rCOXt80hlGnxyaPNq3rOlCC=w151-h92-k-no"
+        },
+        {
+            "position": 19,
+            "ludocid": "107677961281445669465",
+            "place_id": "ChIJpWV1ipWrNTERK1wUaxj3I4M",
+            "kgmid": "/g/11c3zvfx8v",
+            "data_id": "0x3135ab958a7565a5:0x8323f7186b145c2b",
+            "title": "Hai Bay Hotel",
+            "description": "KS mang v\u1ebb th\u01b0 th\u00e1i, c\u00f3 nh\u00e0 h\u00e0ng v\u00e0 bar. Kh\u00e1ch s\u1ea1n \u1ea5m c\u00fang, c\u00f3 nh\u00e0 h\u00e0ng, qu\u1ea7y bar t\u1ea7ng th\u01b0\u1ee3ng, qu\u1ea7y r\u01b0\u1ee3u vang, spa v\u00e0 b\u1eefa s\u00e1ng.",
+            "features": [
+                "Kh\u00e1ch s\u1ea1n b\u00ecnh d\u1ecb, n\u1eb1m trong khu Ph\u1ed1 C\u1ed5, c\u00e1ch \u0110\u1ec1n Ng\u1ecdc S\u01a1n tr\u00ean H\u1ed3 Ho\u00e0n Ki\u1ebfm 9\u00a0ph\u00fat \u0111i b\u1ed9, c\u00e1ch Ga H\u00e0 N\u1ed9i 1\u00a0km v\u00e0 c\u00e1ch Ho\u00e0ng th\u00e0nh Th\u0103ng Long (c\u00f3 t\u1eeb th\u1ebf k\u1ef7\u00a011) 2\u00a0km.",
+                "Ph\u00f2ng \u1ed1c \u0111\u01b0\u1ee3c b\u00e0i tr\u00ed \u1ea5m c\u00fang, th\u01b0 th\u00e1i, c\u00f3 Wi-Fi, TV m\u00e0n h\u00ecnh ph\u1eb3ng, k\u00e9t an to\u00e0n, t\u1ee7 l\u1ea1nh nh\u1ecf, d\u1ee5ng c\u1ee5 pha tr\u00e0 v\u00e0 c\u00e0 ph\u00ea. Ph\u00f2ng n\u00e2ng h\u1ea1ng c\u00f3 th\u00eam ban c\u00f4ng v\u00e0/ho\u1eb7c h\u01b0\u1edbng ra th\u00e0nh ph\u1ed1. Ph\u00f2ng suite c\u00f3 kh\u00f4ng gian ti\u1ebfp kh\u00e1ch ri\u00eang. Ph\u1ee5c vu \u0103n u\u1ed1ng t\u1ea1i ph\u00f2ng.",
+                "Kh\u00e1ch s\u1ea1n ph\u1ee5c v\u1ee5 b\u1eefa s\u00e1ng. C\u00e1c ti\u1ec7n nghi kh\u00e1c bao g\u1ed3m nh\u00e0 h\u00e0ng tho\u1ea3i m\u00e1i, qu\u1ea7y r\u01b0\u1ee3u vang v\u00e0 qu\u1ea7y bar t\u1ea7ng th\u01b0\u1ee3ng nh\u00ecn ra th\u00e0nh ph\u1ed1. T\u1ea1i \u0111\u00e2y c\u00f2n c\u00f3 khu spa."
+            ],
+            "address": "27 P. H\u00e0ng B\u00f4ng, H\u00e0ng Tr\u1ed1ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i 100000, Vi\u1ec7t Nam",
+            "phone": "024 3678 2727",
+            "price": "33\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.6,
+            "reviews": 879,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJpWV1ipWrNTERK1wUaxj3I4M&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://haibayhotel.com/",
+            "domain": "haibayhotel.com",
+            "gps_coordinates": {
+                "latitude": 21.0307955,
+                "longitude": 105.8484744
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "B\u1eefa s\u00e1ng"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipOfGbb0WCfE4QD5F191d1JrB3bBS09MSe5uICH2=w138-h92-k-no"
+        },
+        {
+            "position": 20,
+            "ludocid": "113085294066085218934",
+            "place_id": "ChIJ7REKcvCrNTERKRK3YQjrcms",
+            "kgmid": "/g/11vds2t9dx",
+            "data_id": "0x3135abf0720a11ed:0x6b72eb0861b71229",
+            "title": "San Premium Hotel",
+            "description": "Kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 spa v\u00e0 ph\u00f2ng ch\u1edd tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng. Kh\u00e1ch s\u1ea1n sang tr\u1ecdng c\u00f3 ph\u00f2ng ngh\u1ec9 tho\u00e1ng m\u00e1t, nh\u00e0 h\u00e0ng k\u1ebft h\u1ee3p \u1ea9m th\u1ef1c sang tr\u1ecdng, ph\u00f2ng ch\u1edd tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng th\u1eddi th\u01b0\u1ee3ng v\u00e0 spa.",
+            "features": [
+                "T\u1ecda l\u1ea1c t\u1ea1i khu trung t\u00e2m th\u00e0nh ph\u1ed1 s\u00f4i \u0111\u1ed9ng v\u1edbi nhi\u1ec1u nh\u00e0 h\u00e0ng v\u00e0 qu\u00e1n bar, kh\u00e1ch s\u1ea1n sang tr\u1ecdng n\u00e0y c\u00e1ch Ga H\u00e0 N\u1ed9i 13 ph\u00fat \u0111i b\u1ed9, c\u00e1ch Nh\u00e0 h\u00e1t M\u00faa r\u1ed1i n\u01b0\u1edbc Th\u0103ng Long 14 ph\u00fat \u0111i b\u1ed9 v\u00e0 c\u00e1ch L\u0103ng Ch\u1ee7 t\u1ecbch H\u1ed3 Ch\u00ed Minh 2 km.",
+                "Ph\u00f2ng tho\u00e1ng m\u00e1t c\u00f3 Wi-Fi, truy\u1ec1n h\u00ecnh v\u1ec7 tinh, t\u1ee7 l\u1ea1nh nh\u1ecf v\u00e0 ti\u1ec7n nghi pha tr\u00e0 v\u00e0 c\u00e0 ph\u00ea. T\u1ea5t c\u1ea3 \u0111\u1ec1u c\u00f3 k\u00e9t an to\u00e0n v\u00e0 m\u1ed9t s\u1ed1 ph\u00f2ng c\u00f3 khu v\u1ef1c ti\u1ebfp kh\u00e1ch v\u00e0/ho\u1eb7c ban c\u00f4ng nh\u00ecn ra quang c\u1ea3nh th\u00e0nh ph\u1ed1.",
+                "Ti\u1ec7n nghi bao g\u1ed3m nh\u00e0 h\u00e0ng k\u1ebft h\u1ee3p theo phong c\u00e1ch ngh\u1ec7 thu\u1eadt trang tr\u00ed, c\u0169ng nh\u01b0 ph\u00f2ng ch\u1edd tr\u00ean t\u1ea7ng th\u01b0\u1ee3ng th\u1eddi th\u01b0\u1ee3ng v\u1edbi t\u1ea7m nh\u00ecn ra th\u00e0nh ph\u1ed1. Ngo\u00e0i ra c\u00f2n c\u00f3 spa \u0111\u1ea7y \u0111\u1ee7 d\u1ecbch v\u1ee5 y\u00ean t\u0129nh."
+            ],
+            "address": "36 P. H\u00e0 Trung, H\u00e0ng B\u00f4ng, Ho\u00e0n Ki\u1ebfm, H\u00e0 N\u1ed9i, Vi\u1ec7t Nam",
+            "phone": "024 3828 7777",
+            "price": "28\u00a0US$",
+            "hotel_stars": "4 sao",
+            "rating": 4.8,
+            "reviews": 209,
+            "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ7REKcvCrNTERKRK3YQjrcms&q=Hotels&authuser=0&hl=vi&gl=US",
+            "website": "https://sanpremium.sanhotelseries.com/",
+            "domain": "sanpremium.sanhotelseries.com",
+            "gps_coordinates": {
+                "latitude": 21.0303045,
+                "longitude": 105.8455353
+            },
+            "type": "Kh\u00e1ch s\u1ea1n",
+            "types": [
+                "Kh\u00e1ch s\u1ea1n"
+            ],
+            "amenities": [
+                "B\u1eefa s\u00e1ng mi\u1ec5n ph\u00ed",
+                "Wi-Fi mi\u1ec5n ph\u00ed",
+                "C\u00f3 \u0111i\u1ec1u h\u00f2a nhi\u1ec7t \u0111\u1ed9",
+                "B\u1eefa s\u00e1ng"
+            ],
+            "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhH5bl55GbsRWn0_-7taqCoRFFQqOHyGLMR8xRL1DvqTKQj2dNwjNkP4XOJs8vrn_PDlZHboNW3yCyPdrh4R-ivy6GycIcACN-j3RJdZN52QLXyT-TWQwuR2les-L4KKKqPwg9lYRLjtdj4e-DmI0tfLo_JeAbtii9T6NWopcKX93S7xaJFFXp9nrQ=w80-h110-k-no"
+        }
+    ]
+}

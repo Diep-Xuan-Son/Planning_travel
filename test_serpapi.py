@@ -2,6 +2,7 @@ import requests
 
 
 url_destination = "https://serpapi.com/locations.json"
+url_search = "https://serpapi.com/search.json"
 
 headers = {
 	'Content-Type': 'application/json',
@@ -20,7 +21,6 @@ radius = 3000
 circle_center = {"latitude": dt_destination["gps"][1], "longitude": dt_destination["gps"][0]}
 circle_radius = radius
 
-url_search = "https://serpapi.com/search.json"
 params = {
 	"engine": "google_local",
 	"q": "Hotel",
@@ -29,3 +29,4 @@ params = {
 
 res = requests.request("GET", url=url_search, params=params, headers=headers)
 print(res.json())
+

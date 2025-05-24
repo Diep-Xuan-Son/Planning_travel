@@ -1,18 +1,24 @@
 import os
 import jwt
+import torch
 import folium
+import re as regex
 import streamlit as st
 from dotenv import load_dotenv
 from pydantic import BaseModel
+from streamlit.components.v1 import html
+from langchain.chains import RetrievalQA
 from streamlit_folium import folium_static
 
 from traveling_agent import TravelAgentTool
+
+torch.classes.__path__ = []
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Retrieve the API key from the environment variable
-secret = "my sim chatbot"
+secret = "MMV"
 api_key_openai_encode = os.getenv('API_KEY_OPENAI_ENCODE')
 api_key_openai = jwt.decode(api_key_openai_encode, secret, algorithms=["HS256"])["api_key"]
 api_key_searchapi = os.getenv('API_KEY_SEARCHAPI')
@@ -20,36 +26,55 @@ api_key_searchapi = os.getenv('API_KEY_SEARCHAPI')
 # TRAVEL_AGENT = TravelAgentTool(api_key=api_key_openai, api_key_searchapi=api_key_searchapi, dbmem_name="Memory", redis_url="", redis_port=6400)
 
 def main():
-    st.sidebar.title("Travel Recommendation App Demo")
+    st.sidebar.title("Traveling App Demo")
 
     # api_key_searchapi = st.sidebar.text_input("Enter Google Maps API key:",type="password")
     # api_key_openai = st.sidebar.text_input("Enter OpenAI API key:",type="password")
-    TRAVEL_AGENT = TravelAgentTool(api_key=api_key_openai, api_key_searchapi=api_key_searchapi, dbmem_name="Memory", redis_url="", redis_port=6400)
+    # TRAVEL_AGENT = TravelAgentTool(api_key=api_key_openai, api_key_searchapi=api_key_searchapi, dbmem_name="Memory", redis_url="", redis_port=6400)
+    if "travel_agent" not in st.session_state:
+        st.session_state["travel_agent"] = TravelAgentTool(api_key=api_key_openai, api_key_searchapi=api_key_searchapi, dbmem_name="Memory", redis_url="", redis_port=6400)
+    TRAVEL_AGENT = st.session_state["travel_agent"]
 
-    st.sidebar.write('Please fill in the fields below.')
-    destination = st.sidebar.text_input('Destination:',key='destination_app')
-    min_rating = st.sidebar.number_input('Minimum Rating:',value=4.0,min_value=0.5,max_value=4.5,step=0.5,key='minrating_app')
-    radius = st.sidebar.number_input('Search Radius in meter:',value=3000,min_value=500,max_value=50000,step=100,key='radius_app')
+    st.sidebar.write('Hãy điền đầy đủ thông tin dưới đây.')
+    destination = st.sidebar.text_input('Địa điểm:',key='destination_app')
+    min_rating = st.sidebar.number_input('Mức đánh giá thấp nhất:',value=4.0,min_value=0.5,max_value=4.5,step=0.5,key='minrating_app')
+    radius = st.sidebar.number_input('Bán kính tìm kiếm:',value=3000,min_value=500,max_value=50000,step=100,key='radius_app')
 
     if destination:
-        df_place = TRAVEL_AGENT.prepare_data(destination=destination, min_rating=min_rating, radius=radius)
+        if "current_destination" not in st.session_state:
+            st.session_state["current_destination"] = destination
+            st.session_state["df_place"] = TRAVEL_AGENT.prepare_data(destination=destination, min_rating=min_rating, radius=radius)
+            st.session_state["vector_dt"] = TRAVEL_AGENT.prepare_vector_data(data=st.session_state["df_place"][0])
+        else:
+            if st.session_state["current_destination"] != destination:
+                st.session_state["current_destination"] = destination
+                st.session_state["df_place"] = TRAVEL_AGENT.prepare_data(destination=destination, min_rating=min_rating, radius=radius)
+                st.session_state["vector_dt"] = TRAVEL_AGENT.prepare_vector_data(data=st.session_state["df_place"][0])
+
+        # df_place = TRAVEL_AGENT.prepare_data(destination=destination, min_rating=min_rating, radius=radius)
+        # vector_dt = TRAVEL_AGENT.prepare_vector_data(data=TRAVEL_AGENT.df_place[0])
+        df_place = st.session_state["df_place"]
         df_place_rename = df_place[0]
+
+        st.session_state["initial_location"] = list(df_place[2].values())
+        st.session_state["type_colour"] = {"Khách sạn":'blue', "Nhà hàng":'green', "Điểm du lịch":'orange'}
+        st.session_state["type_icon"] = {"Khách sạn":'home', "Nhà hàng":'cutlery', "Điểm du lịch":'star'}
 
         def database():
             st.dataframe(df_place[1])
 
         def maps():
-            st.header("🌏 Travel Recommendation App 🌏")
+            st.header("🌏 Traveling App 🌏")
 
-            places_type = st.radio('Looking for: ',["Hotels 🏨", "Restaurants 🍴","Tourist Attractions ⭐"])
-            initial_location = list(df_place[2].values())
-            type_colour = {'Hotel':'blue', 'Restaurant':'green', 'Tourist':'orange'}
-            type_icon = {'Hotel':'home', 'Restaurant':'cutlery', 'Tourist':'star'}
+            places_type = st.radio('Tìm kiếm thông tin: ',["Khách sạn 🏨", "Nhà hàng 🍴","Điểm du lịch hấp dẫn ⭐"])
+            initial_location = st.session_state["initial_location"]
+            type_colour = st.session_state["type_colour"]
+            type_icon = st.session_state["type_icon"]
 
-            st.write(f"# Here are our recommendations for {places_type} near {destination} ")
+            st.write(f"# Dưới đây là một số đề xuất {places_type.lower()} gần {destination} ")
 
-            if places_type == 'Hotels 🏨': 
-                df_hotel = df_place_rename[df_place_rename["Type"]=="Hotel"]
+            if places_type == 'Khách sạn 🏨': 
+                df_hotel = df_place_rename[df_place_rename["Type"]=="Khách sạn"]
                 with st.spinner("Just a moment..."):
                     for index,row in df_hotel.iterrows():
                         location = [row['Latitude'], row['Longitude']]
@@ -60,6 +85,7 @@ def main():
                                 'Address: ' + str(row['Address']) + '<br>' + 
                                 'Website: '  + str(row['Website_URL'])
                                 )
+                        print(content)
                         iframe = folium.IFrame(content, width=300, height=125)
                         popup = folium.Popup(iframe, max_width=300)
 
@@ -72,13 +98,13 @@ def main():
 
                         st.write(f"## {index + 1}. {row['Name']}")
                         folium_static(mymap)
-                        st.write(f"Rating: {row['Rating']}")
-                        st.write(f"Address: {row['Address']}")
+                        st.write(f"Đánh giá: {row['Rating']}")
+                        st.write(f"Địa điểm: {row['Address']}")
                         st.write(f"Website: {row['Website_URL']}")
-                        st.write(f"More information: {row['Google_Maps_URL']}\n")
+                        st.write(f"Các thông tin khác: {row['Google_Maps_URL']}\n")
                             
-            elif places_type == 'Restaurants 🍴': 
-                df_restaurant = df_place_rename[df_place_rename["Type"]=="Restaurant"]
+            elif places_type == 'Nhà hàng 🍴': 
+                df_restaurant = df_place_rename[df_place_rename["Type"]=="Nhà hàng"]
                 with st.spinner("Just a moment..."):
                     for index,row in df_restaurant.iterrows():
                         location = [row['Latitude'], row['Longitude']]
@@ -101,12 +127,12 @@ def main():
 
                         st.write(f"## {index + 1}. {row['Name']}")
                         folium_static(mymap)
-                        st.write(f"Rating: {row['Rating']}")
-                        st.write(f"Address: {row['Address']}")
+                        st.write(f"Đánh giá: {row['Rating']}")
+                        st.write(f"Địa điểm: {row['Address']}")
                         st.write(f"Website: {row['Website_URL']}")
-                        st.write(f"More information: {row['Google_Maps_URL']}\n")
+                        st.write(f"Các thông tin khác: {row['Google_Maps_URL']}\n")
             else:
-                df_tourist = df_place_rename[df_place_rename["Type"]=="Tourist"]
+                df_tourist = df_place_rename[df_place_rename["Type"]=="Điểm du lịch"]
                 with st.spinner("Just a moment..."):
                     for index,row in df_tourist.iterrows():
                         location = [row['Latitude'], row['Longitude']]
@@ -129,17 +155,15 @@ def main():
 
                         st.write(f"## {index + 1}. {row['Name']}")
                         folium_static(mymap)
-                        st.write(f"Rating: {row['Rating']}")
-                        st.write(f"Address: {row['Address']}")
+                        st.write(f"Đánh giá: {row['Rating']}")
+                        st.write(f"Địa điểm: {row['Address']}")
                         st.write(f"Website: {row['Website_URL']}")
-                        st.write(f"More information: {row['Google_Maps_URL']}\n")
+                        st.write(f"Các thông tin khác: {row['Google_Maps_URL']}\n")
 
         def chatbot():
             class Message(BaseModel):
                 actor: str
                 payload : str
-
-            llm = ChatOpenAI(openai_api_key=openai_api_key,model_name='gpt-3.5-turbo', temperature=0) 
 
             USER = "user"
             ASSISTANT = "ai"
@@ -153,15 +177,12 @@ def main():
             for msg in st.session_state[MESSAGES]:
                 st.chat_message(msg.actor).write(msg.payload)
 
-            # Prompt
-            query: str = st.chat_input("Enter a prompt here")
-
-            vector_dt = TRAVEL_AGENT.prepare_vector_data(data=df_place_rename)
+            vector_dt = st.session_state["vector_dt"]
             
             qa = RetrievalQA.from_chain_type(
-                llm=llm,
+                llm=TRAVEL_AGENT.travel_planning_agent.llm,
                 chain_type='stuff',
-                retriever=vector_dt[0].as_retriever(),
+                retriever=vector_dt[0].as_retriever(search_kwargs={"k": 8}),
                 verbose=True,
                 chain_type_kwargs={
                     "verbose": True,
@@ -169,18 +190,67 @@ def main():
                     "memory": vector_dt[2]}
             )
 
+            # Prompt
+            query: str = st.chat_input("Enter a prompt here")
+
             if query:
                 st.session_state[MESSAGES].append(Message(actor=USER, payload=str(query)))
                 st.chat_message(USER).write(query)
 
                 with st.spinner("Please wait..."):
-                    response: str = qa.run(query = query)
+                    response: str = qa.invoke({"query": query})
+                    response = response["result"]
                     st.session_state[MESSAGES].append(Message(actor=ASSISTANT, payload=response))
+                    # response = TRAVEL_AGENT.clean_response(response)
+                    # for i, (name, infor) in enumerate(response.items()):
+                    #     clean_response = f'{i+1}. {name}\n\nRating: {infor["Rating"]}\n\nReviewers: {infor["Number of user ratings"]}\n\nAddress: {infor["Address"]}\n\nPhone number: {infor["Phone number"]}\n\nWebsite: {infor["Website"]}'
+                    list_place = response.split("\n\n")
+                    if len(list_place) > 2:
+                        mymap = folium.Map(location = st.session_state["initial_location"], 
+                                    zoom_start=9, control_scale=True)
+                    for place in list_place:
+                        lat, lon = 0, 0
+                        if "Vĩ độ" in place:
+                            pattern = r'Vĩ độ: \d+\.\d+'
+                            lat = regex.findall(pattern, place.strip(), regex.DOTALL)
+                            pattern = r'\d+\.\d+'
+                            lat = float(regex.findall(pattern, lat[0].strip(), regex.DOTALL)[0])
+                        if "Kinh độ" in place:
+                            pattern = r'Kinh độ: \d+\.\d+'
+                            lon = regex.findall(pattern, place.strip(), regex.DOTALL)
+                            pattern = r'\d+\.\d+'
+                            lon = float(regex.findall(pattern, lon[0].strip(), regex.DOTALL)[0])
+                            if "Nhà hàng" in place:
+                                type_place = "Nhà hàng"
+                            if "Khách sạn" in place:
+                                type_place = "Khách sạn"
+                            if "Điểm du lịch" in place:
+                                type_place = "Điểm du lịch"
+
+                        if lat:
+                            location = [lat, lon]
+                            content = place.replace("-", "<br>")
+                            print(content)
+                            iframe = folium.IFrame(content, width=300, height=125)
+                            popup = folium.Popup(iframe, max_width=300)
+
+                            icon_color = st.session_state["type_colour"][type_place]
+                            icon_type = st.session_state["type_icon"][type_place]
+                            icon = folium.Icon(color=icon_color, icon=icon_type)
+
+                            # Use different icons for hotels, restaurants, and tourist attractions
+                            folium.Marker(location=location, popup=popup, icon=icon).add_to(mymap)
                     st.chat_message(ASSISTANT).write(response)
+                    # Save map to HTML
+                    map_html = mymap._repr_html_()  # not need save() to file
+                    # Hiển thị trong khung chat
+                    with st.chat_message(ASSISTANT):
+                        st.markdown("📍 Bạn có thể xem bản đồ tham khảo dưới đây:")
+                        html(map_html, height=500, width=700)
                # st.write("Chatbot")
 
-        method = st.sidebar.radio(" ",["Search 🔎","ChatBot 🤖","Database 📑"], key="method_app")
-        if method == "Search 🔎":
+        method = st.sidebar.radio(" ",["Tìm kiếm 🔎","ChatBot 🤖","Dữ liệu 📑"], key="method_app")
+        if method == "Tìm kiếm 🔎":
             maps()
         elif method == "ChatBot 🤖":
             chatbot()
