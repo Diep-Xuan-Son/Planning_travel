@@ -10,7 +10,7 @@ import os
 import re
 import jwt
 import json
-import redis
+# import redis
 import asyncio
 import requests
 import traceback
