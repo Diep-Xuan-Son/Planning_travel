@@ -10,6 +10,7 @@ tiktoken
 faiss-cpu
 transformers
 sentence_transformers
+einops
 
 langchain_community
 langchain_openai

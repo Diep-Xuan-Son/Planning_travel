@@ -35,15 +35,15 @@ from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 from prompts import TRAVELING_AGENT_PROMPT, CITY_PROMPT
 
-if not os.path.exists("./weights/nomic-embed-text-v1.5"):
-    os.makedirs("./weights", exist_ok=True)
+if not os.path.exists(f"{DIR}/weights/nomic-embed-text-v1.5"):
+    os.makedirs(f"{DIR}/weights", exist_ok=True)
     print("----Downloading model!")
     # Name of the model on Hugging Face
     model_name = "nomic-ai/nomic-embed-text-v1.5"
 
     # Download and save to a custom folder
     model = SentenceTransformer(model_name, trust_remote_code=True)
-    model.save("./weights/nomic-embed-text-v1.5")  # Local folder
+    model.save(f"{DIR}/weights/nomic-embed-text-v1.5")  # Local folder
 
 # Tool definitions
 @dataclass
@@ -458,7 +458,7 @@ class TravelAgentTool():
         texts = text_splitter.split_documents(docs)
 
         embeddings = HuggingFaceEmbeddings(
-            model_name="./weights/nomic-embed-text-v1.5",
+            model_name=f"{DIR}/weights/nomic-embed-text-v1.5",
             model_kwargs={'device': 'cpu', "trust_remote_code": True},        # hoặc 'cuda' nếu có GPU
             encode_kwargs={'normalize_embeddings': False}
         )
