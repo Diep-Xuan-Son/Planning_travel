@@ -1,9 +1,4 @@
-# Travel Recommendation Application using Google Places API and OpenAI LLM
-
-- [Application Demo](https://travel-planner-demo.streamlit.app/)
-
-The "Travel Recommendation App" project aims to develop a travel recommendation system using Google Places API and OpenAI LLM that returns a list of recommended location based on users input. 
-
+# Planning Traveling
 ---
 
 ## File Explanation
@@ -27,14 +22,5 @@ This repository consists of several files :
 
 ### How to use
 
-Users can use this application by entering the desired location on the widget. The application features a chatbot that users can converse with to receive suggestions.
-
-**User Input**
-
-https://github.com/ahmadluay9/travel-planner-app/assets/123846438/92bf43c8-98d6-43d9-82c8-92960fd0302e
-
-**ChatBot**
-
-https://github.com/ahmadluay9/travel-planner-app/assets/123846438/e195792e-4763-4b03-87ae-74a4518508f2
-
+The user need to enter Openai API first then you can use this application by entering the desired location. The application features a chatbot that users can converse with to receive suggestions.
 
