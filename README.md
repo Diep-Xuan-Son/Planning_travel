@@ -24,3 +24,7 @@ This repository consists of several files :
 
 The user need to enter Openai API first then you can use this application by entering the desired location. The application features a chatbot that users can converse with to receive suggestions.
 
+Using the command below to run app:
+```
+	streamlit run app.py
+```
